@@ -1,0 +1,1896 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<title>TCET - Thakur College Of Engineering and Technology</title>
+<head>
+<meta charset=utf-8>
+<meta content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no"name=viewport>
+<link href="layout/styles/layout.css" media="all" rel="stylesheet">
+<link rel="stylesheet" href="layout/nivo-slider/themes/default/default.css" type="text/css" media="screen"/>
+<link rel="stylesheet" href="layout/nivo-slider/nivo-slider.css" type="text/css" media="screen"/>
+<link rel="stylesheet" href="layout/styles/topb.css" type="text/css" media="screen"/>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8"/>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js"></script> 
+<script type="text/javascript" src="layout/scripts/topb.js"></script>
+<meta name="description" content="">
+<meta name="keywords" content="">
+<meta name="author" content="">
+<link rel="stylesheet" href="menu/home_menu.css">
+<script src="menu/prefixfree.min.js"></script>
+</head>
+
+<style>
+.box {
+    background: #004080;
+    border-radius: 6px;
+    cursor: pointer;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    transition-property: background;
+    transition-duration: 1s;
+    transition-timing-function: linear;
+    width: 100%;
+}
+.box:hover {
+    background: #F8090D;
+}
+.nav1 {
+    color: #fff;
+    font: 500 10px/20px "Open Sans", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", Sans-Serif;
+}
+body {
+    color: #fff;
+    font: 600 14px/24px "Open Sans", "HelveticaNeue-Light", "Helvetica Neue Light", "Helvetica Neue", Helvetica, Arial, "Lucida Grande", Sans-Serif;
+}
+.box1 {
+    background: #004080;
+    border-radius: 6px;
+    cursor: pointer;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    transition-property: background, border-radius;
+    transition-duration: 0.6s;
+    transition-timing-function: linear;
+    width: auto;
+}
+.box1:hover {
+    background: #E6771C;/*border-radius: 50%;*/
+}
+/* for top button*/#myBtn {
+    display: none;
+    position: fixed;
+    bottom: 20px;
+    right: 30px;
+    z-index: 9999;
+    border: none;
+    outline: none;
+    background-color: red;
+    color: white;
+    cursor: pointer;
+    padding: 15px;
+    border-radius: 10px;
+}
+#myBtn:hover {
+    background-color: #555;
+}/* BackToTop button css */
+#scroll {
+    position: fixed;
+    right: 10px;
+    bottom: 10px;
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+    background-color: #004080;
+    text-indent: -9999px;
+    display: none;
+    -webkit-border-radius: 60px;
+    -moz-border-radius: 60px;
+    border-radius: 15px;
+    z-index: 9999;
+}
+#scroll span {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-left: -8px;
+    margin-top: -12px;
+    height: 0;
+    width: 0;
+    border: 8px solid transparent;
+    border-bottom-color: #ffffff;
+}
+#scroll:hover {
+    background-color: #e74c3c;
+    opacity: 1;
+    filter: "alpha(opacity=100)";
+    -ms-filter: "alpha(opacity=100)";
+}
+#head1 {
+    margin-bottom: 0px;
+}
+</style>
+<script type="text/javascript" src="https://code.jquery.com/jquery-1.8.2.js"></script>
+<style type="text/css">
+#overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: #000;
+    filter: alpha(opacity=70);
+    -moz-opacity: 0.7;
+    -khtml-opacity: 0.7;
+    opacity: 0.7;
+    z-index: 100;
+    display: none;
+}
+.cnt223 a {
+    text-decoration: none;
+}
+.popup {
+    width: 100%;
+    margin: 0 auto;
+    display: none;
+    position: fixed;
+    z-index: 101;
+}
+
+@media only screen and (max-width: 479px) {
+.popup {
+    width: 50%;
+}
+}
+.cnt223 {
+    /*min-width: 600px;
+width: 600px;
+min-height: 150px;*/
+    min-width: 360px;
+    width: 800px;
+    height: auto;
+    margin: 100px auto;
+    background: #f3f3f3;
+    position: relative;
+    z-index: 103;
+    /*padding: 5px 10px;*/
+    border-radius: 5px;
+    box-shadow: 0 2px 5px #000;
+    background-image: url(Image/popup_background.jpg);
+    background-position: center;
+}
+
+@media only screen and (max-width: 479px) {
+.cnt223 {
+    width: 50%;
+}
+}
+.cnt223 p {
+    clear: both;
+    color: #555555;
+    /* text-align: justify; */
+    font-size: 20px;
+    font-family: sans-serif;
+}
+
+@media only screen and (max-width: 479px) {
+.cnt223 p {
+    width: 100%;
+}
+}
+/*<!--.cnt223 p a{
+color: #d91900;
+font-weight: bold;
+}-->*/
+.cnt223 .x {
+    float: right;
+    height: 35px;
+    left: 22px;
+    position: relative;
+    top: -25px;
+    width: 34px;
+}
+.cnt223 .x:hover {
+    cursor: pointer;
+}
+.close {
+    float: right;
+}
+</style>
+<script type="text/javascript">
+$(function(){
+var overlay = $('<div id="overlay"></div>');
+overlay.show();
+overlay.appendTo(document.body);
+$('.popup').show();
+$('.close').click(function(){
+$('.popup').hide();
+overlay.appendTo(document.body).remove();
+return false;
+});
+
+
+$('.x').click(function(){
+$('.popup').hide();
+overlay.appendTo(document.body).remove();
+return false;
+});
+});
+</script>
+<style>
+* {
+    box-sizing: border-box;
+}
+.blinking {
+    animation: blinkingText 1.2s infinite;
+}
+@keyframes blinkingText {
+0% {
+color: #fff;
+}
+49% {
+color: #fff;
+}
+60% {
+color: transparent;
+}
+99% {
+color:transparent;
+}
+100% {
+color: #fff;
+}
+}
+</style>
+<style>
+.popup1 {
+    background-color: #ffffff;
+    color: #000;
+    width: 75%;
+    height: 75%;
+    padding: 10px 40px;
+    position: fixed;
+    transform: translate(-50%, -50%);
+    left: 50%;
+    top: 50%;
+    border-radius: 8px;
+    font-family: "Poppins", sans-serif;
+    display: none;
+    text-align: center;
+    overflow-y: hidden;
+    overflow: scroll;
+    z-index: 1500;
+}
+.popup1 button {
+    display: block;
+    margin: 0 0 20px auto;
+    background-color: transparent;
+    font-size: 30px;
+    color: #c5c5c5;
+    border: none;
+    outline: none;
+    cursor: pointer;
+}
+.popup1 p {
+    font-size: 14px;
+    text-align: justify;
+    margin: 20px 0;
+    line-height: 25px;
+}
+/*a{
+    display: block;
+    width: 150px;
+    position: relative;
+    margin: 10px auto;
+    text-align: center;
+    background-color: #0f72e5;
+    color: #ffffff;
+    text-decoration: none;
+    padding: 5px 0;
+}*/
+</style>
+
+
+
+<script>
+	window.addEventListener("load", function(){
+    setTimeout(
+        function open(event){
+            document.querySelector(".popup1").style.display = "block";
+        },
+        60
+    )
+});
+document.querySelector("#close1").addEventListener("click", function(){
+    document.querySelector(".popup1").style.display = "none";
+});
+	
+	
+	
+	</script>
+<div class="popup">
+  <div class="cnt223"><a href="" class="close"><img style="float:right;background: #FFFFFF;border-radius: 5px;padding-top:-10px ;position: sticky" src="image/close.gif" alt="close" width="83" height="30"  /></a> <br>
+	 <!-- <img id="imgZoom" onmousemove="zoomIn()" onmouseout="zoomOut()" src="image/popup_header_.jpg" >-->
+	   <img id="imgZoom" onmousemove="zoomIn()" onmouseout="zoomOut()" src="Image/header2.jpg" >
+	   <br>
+    <center>
+       <h4 style="background-color: #165EB4; font-size: 20px; width: 90%; text-align: center; font-family: Cambria, 'Hoefler Text', 'Liberation Serif', Times, 'Times New Roman', 'serif'; color: #FFFFFF; font-weight: 600; border-radius: 50px 15px;"><a href="https://thakureducation-my.sharepoint.com/:b:/g/personal/it_thakureducation_org/EXOL_9Ok_iNEvBxGV2MWDIEBHi6Q5xBVwl-XmOLLCJ2hZg?e=bIA3rQ" target="_blank"><span class="blinking">Admission Brochure for A.Y. 2022-23</span></a></h4>
+		
+		
+		<!--<h4 style="background-color: #165EB4; font-size: 20px; width: 90%; text-align: center; font-family: Cambria, 'Hoefler Text', 'Liberation Serif', Times, 'Times New Roman', 'serif'; color: #FFFFFF; font-weight: 600; border-radius: 50px 15px;"><a href="Notice/Ist Year Form.pdf" target="_blank"><span class="blinking">Admission Form for B.E. First Year for A.Y. 2022-23</span></a></h4>-->
+		
+   
+		<h4 style="background-color: #165EB4; font-size: 20px; width: 90%; text-align: center; font-family: Cambria, 'Hoefler Text', 'Liberation Serif', Times, 'Times New Roman', 'serif'; color: #FFFFFF; font-weight: 600; border-radius: 50px 15px;"><a href="be_btech_admission.html" target="_blank"><span class="blinking">Admission Enquiry For B.E/B.Tech Courses (4 years UG Course) A.Y.2022-2023</span></a></h4>
+   
+		<h4 style="background-color: #165EB4; font-size: 20px; width: 90%; text-align: center; font-family: Cambria, 'Hoefler Text', 'Liberation Serif', Times, 'Times New Roman', 'serif'; color: #FFFFFF; font-weight: 600; border-radius: 50px 15px;"><a href="Notice/Bachelor of Design Flyer.pdf" target="_blank" ><span class="blinking">Admission Enquiry for B.Design Course (4 years UG Course) A.Y.2022-23</span></a></h4>
+   
+		<h4 style="background-color: #165EB4; font-size: 20px; width: 90%; text-align: center; font-family: Cambria, 'Hoefler Text', 'Liberation Serif', Times, 'Times New Roman', 'serif'; color: #FFFFFF; font-weight: 600; border-radius: 50px 15px;"><a href="bvoc_admission.html" target="_blank" ><span class="blinking">Admission Enquiry for B.Voc Courses (3 years UG Course) A.Y.2022-23</span></a></h4> 
+   
+		<!--<h4 style="background-color: #165EB4; font-size: 20px; width: 90%; text-align: center; font-family: Cambria, 'Hoefler Text', 'Liberation Serif', Times, 'Times New Roman', 'serif'; color: #FFFFFF; font-weight: 600; border-radius: 50px 15px;">
+			<a href="bvoc_AGD.html" target="_blank" ><span class="blinking">Admission Enquiry For B.Voc in Animation & Graphic Design Course (3 years UG course) A.Y. 2022-23</span></a>
+		</h4>-->
+		
+		<h4 style="background-color: #165EB4; font-size: 20px; width: 90%; text-align: center; font-family: Cambria, 'Hoefler Text', 'Liberation Serif', Times, 'Times New Roman', 'serif'; color: #FFFFFF; font-weight: 600; border-radius: 50px 15px;"><a href="Notice/Ph.D.pdf" target="_blank"><span class="blinking"> Ph.D. Admission Notice for A.Y.2022-2023</span></a></h4>
+    
+		<h4 style="background-color: #165EB4; font-size: 20px; width: 90%; text-align: center; font-family: Cambria, 'Hoefler Text', 'Liberation Serif', Times, 'Times New Roman', 'serif'; color: #FFFFFF; font-weight: 600; border-radius: 50px 15px;"><a href="Notice/Ph.D Admission (1).pdf" target="_blank"><span class="blinking"> Ph.D. Admission Notification for A.Y.2022-2023</span></a></h4>
+		
+		<h4 style="background-color: #165EB4; font-size: 20px; width: 90%; text-align: center; font-family: Cambria, 'Hoefler Text', 'Liberation Serif', Times, 'Times New Roman', 'serif'; color: #FFFFFF; font-weight: 600; border-radius: 50px 15px;"><a href="https://www.tcetmumbai.in/me_enquiry.html" target="_blank"><span class="blinking">Admission Enquiry For M.E Courses (2 years PG Course) A.Y.2022-2023</span></a></h4>
+    
+			
+		
+		<h4 style="background-color: #165EB4; font-size: 20px; width: 90%; text-align: center; font-family: Cambria, 'Hoefler Text', 'Liberation Serif', Times, 'Times New Roman', 'serif'; color: #FFFFFF; font-weight: 600; border-radius: 50px 15px;"><a href="Notice/B.Voc (Software Development) Advertisement.pdf" target="_blank"><span class="blinking">Admission Notification for B.Voc. (Software Engineering) A.Y.2022-2023</span></a></h4>
+		
+				
+		
+    <!--<h4 style="background-color: #165EB4; font-size: 20px; width: 90%; text-align: center; font-family: Cambria, 'Hoefler Text', 'Liberation Serif', Times, 'Times New Roman', 'serif'; color: #FFFFFF; font-weight: 600; border-radius: 50px 15px; color: #FFFFFF;"><a href="https://mhtcet2021.mahacet.org/StaticPages/HomePage" target="_blank" ><span style="color: #FFFFFF;">Click here to Register yourself for mandatory MHCET Registration</span></a></h4>
+
+      
+    </center>
+    <!--<center><a href="" class="close">Click to Close</a></center>-->
+    </p>
+  </div>
+</div>
+
+<style>
+/* The Modal (background) */
+.modal {
+    display: none; /* Hidden by default */
+    position: fixed; /* Stay in place */
+    z-index: 101; /* Sit on top */
+    padding-top: 100px; /* Location of the box */
+    left: 0;
+    top: 0;
+    width: 100%; /* Full width */
+    height: 100%; /* Full height */
+    overflow: auto; /* Enable scroll if needed */
+    background-color: rgb(0,0,0); /* Fallback color */
+    background-color: rgba(0,0,0,0.4); /* Black w/ opacity */
+}
+/* Modal Content */
+.modal-content {
+    background-color: #fefefe;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #888;
+    width: 50%;
+}
+/* The Close Button */
+.closess {
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+.closess:hover, .close:focus {
+    color: #000;
+    text-decoration: none;
+    cursor: pointer;
+}
+</style>
+<style type="text/css">
+BODY {
+    overflow: hidden
+}
+</style>
+
+<!-- The Modal -->
+<div id="myModal" class="modal">
+  
+  <!-- Modal content -->
+  <div class="modal-content"><span class="closess">&times;</span>
+    <p style="color: #000000; text-align: justify; font-size: 16px; font-family: Cambria, 'Hoefler Text', 'Liberation Serif', Times, 'Times New Roman', 'serif'">All Engineering aspiring students who have cleared MHT-CET / JEE exams can download the admission form<a href="brochure/Admission_Form_2020-21.pdf" download="Admission_Form_2020-21.pdf" style="font-size: 18px;">(click here to download)</a>, fill details and sign before sending scanned copy of admission form and payment details of admission form Rs. 1500/- to tcet.admission@tcetmumbai.in.<br>
+      Bank details of Institute are as below:<br>
+      Beneficiary name : Thakur College of Engg. & Technology<br>
+      A/c number: 707568834<br>
+      A/c type: Saving Account<br>
+      IFSC code: IDIB000K161<br>
+      Branch: Kandivali (East)<br>
+      Bank name: Indian Bank</p>
+  </div>
+</div>
+<script>
+// Get the modal
+var modal = document.getElementById("myModal");
+
+// Get the button that opens the modal
+var btn = document.getElementById("myBtnss");
+
+// Get the <span> element that closes the modal
+var span = document.getElementsByClassName("closess")[0];
+
+// When the user clicks the button, open the modal 
+btn.onclick = function() {
+  modal.style.display = "block";
+}
+
+// When the user clicks on <span> (x), close the modal
+span.onclick = function() {
+  modal.style.display = "none";
+}
+
+// When the user clicks anywhere outside of the modal, close it
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+</script>
+<table id="head1">
+  <tbody>
+    <tr>
+      <th scope="row" style="background-color:#D4890E"><center>
+          <a href="https://www.tcetmumbai.in/"><img src="image/header2.jpg"/></a>
+        </center></th>
+    </tr>
+  </tbody>
+</table>
+<body id="top">
+<a href="javascript:void(0);" id="scroll" title="Scroll to Top" style="display: none;">Top<span></span></a>
+<nav class="nav1"> <a id="resp-menu" class="responsive-menu" href="#"><i class="fa fa-reorder"></i> Menu</a>
+  <ul class="menu">
+    <li><a href="https://www.thakureducation.org/">TEG</a> </li>
+    <li><a href="#">About Us</a>
+      <ul class="sub-menu">
+        <li ><a href="About Us.html">About Us</a></li>
+        <li ><a href="Chairman's Message.html">Chairman's Message</a></li>
+        <li ><a href="CEO's Message.html">CEO's Message</a></li>
+        <li ><a href="Principal's Message.html">Principal's Message</a></li>
+        <li ><a href="Vice_Principal's_Message.html">Vice-Principal's Message</a></li>
+        <li ><a href="Dean's Academic Message.html">Dean's (Academic) Message</a></li>
+        <li ><a href="Dean's RD MSG.html">Dean's (R & D) Message</a></li>
+        <li ><a href="Dean's SSF Message.html">Dean's (Student & Staff Welfare) Message</a></li>
+        <li ><a href="Institutional Growth.html">Institutional Growth</a></li>
+        <li ><a href="Recognition & Awards.html">Recognition & Awards</a></li>
+        <!-- <li ><a href="Balancesheet_2019.html">Balance sheet</a></li>-->
+        <li ><a href="Institute Testimonial.html">Testimonial</a></li>
+        <li ><a href="#">Educational Survey</a>
+          <ul>
+            <li ><a href="Notice/SEE.pdf">Sustainability of Engineering Education</a></li>
+          </ul>
+        </li>
+        <li ><a href="institutional activities.html">Institutional Activities</a> 
+          
+        </li>        
+        <li><a href="NIRF_data.html">NIRF Data</a>
+         
+        </li>
+        <li> <a href="mandatorydis.pdf"> Mandatory Disclousures</a></li>
+      </ul>
+    </li>
+    <li> <a href="#">Admission</a>
+      <ul class="sub-menu">
+        <li ><a href="image\whyTCET.pdf">Why TCET</a></li>
+        <li ><a href="Admission Procedure.html">Admission Procedure</a></li>
+        <li><a href="#"><span>Under Graduate</span></a>
+          <ul>
+            <li ><a href="ugCourses.html">Programmes</a>
+            <li ><a href="ugEligibility.html">Eligibility</a></li>
+            <li ><a href="ugReqDocument.html">Required Documents</a></li>
+            <li ><a href="ugFeeDetails.html">Fee Details</a></li>
+            <li ><a href="ugseatDist.html">Seat Distribution</a></li>
+          </ul>
+        </li>
+        <li><a href="#"><span>Post Graduate</span></a>
+          <ul>
+            <li ><a href="pgCourses.html">Programmes</a>
+            <li ><a href="pgEligibility.html">Eligibility</a></li>
+            <li ><a href="pgReqDocument.html">Required Documents</a></li>
+            <li ><a href="pgFeeDetails.html">Fee Details</a></li>
+            <li ><a href="pgseatDist.html">Seat Distribution</a></li>
+          </ul>
+        </li>
+        <li><a href="#"><span>Doctoral</span></a>
+          <ul>
+            <li ><a href="phdCourses.html">Programmes</a>
+            <li ><a href="#">List of Selected Candidates for Admission to Ph.D(Technology)</a></li>
+            <li ><a href="/Notice/2022/Ph.D Admission.pdf" target="_blank">Admission Notification </a></li>
+            <!--<li ><a href="phd_form.html">Application Form</a></li>-->
+            <li ><a href="#">Application Form</a></li>
+            <li ><a href="phdFeeDetails.html">Fee Details</a></li>
+          </ul>
+        </li>
+        <!--<li ><a href="Notice/PMKVY ADMISSION.pdf">PMKVY Admission Information</a></li>-->
+        <li><a href="#"><span>Conduct And Discipline</span></a>
+          <ul>
+            <li ><a href="generalInst.html">General Instructions</a>
+            <li ><a href="antiRagging.html">Anti-Ragging</a></li>
+            <li ><a href="grievance_committee.html">Grievance Redressal Committee</a></li>
+            <li ><a href="anti_capitation.html">Anti - Capitation Fee</a></li>
+            <!-- <li><a href="wdc.html"><span>Women Devlopement / Women's Grievance Committee</span></a></li>-->
+            <li><a href="ICC.html">Internal Complaints and Sexual Harassment committee</a></li>
+          </ul>
+        </li>
+        <li ><a href="admission_notification.html">Notification</a></li>
+        <!--<li ><a href="#">Notification</a></li>-->
+        <li ><a href="https://thakureducation-my.sharepoint.com/:b:/g/personal/it_thakureducation_org/EXOL_9Ok_iNEvBxGV2MWDIEBHi6Q5xBVwl-XmOLLCJ2hZg?e=bIA3rQ">Admission Brochure</a></li>
+        <li ><a href="brochure/Admission_Form_2020-21.pdf">Admission Form</a></li>
+        <li ><a href="Notice/DRC.pdf">Disability Resource Center</a></li>
+        <li><a href="#"><span>College Magzine</span></a>
+          <ul>
+			  <li ><a href="https://drive.google.com/file/d/15UEYB7fFodie3FrCnIK6a2eDyHqlI2tC/view?usp=sharing" target="_blank">Quasar 2022</a></li>
+            <li ><a href="https://drive.google.com/file/d/1fd8dOFAqngJygxgWoGeZB5wQdJyf7CBP/preview" target="_blank">Quasar 2021</a></li>
+            <li ><a href="E-Magazines/Quasar-2020.pdf" target="_blank">Quasar 2020</a></li>
+            <li ><a href="E-Magazines/Quasar%202018/index.html" target="_blank">Quasar 2018</a></li>
+            <li ><a href="/E-Magazines/Quasar_2017.pdf">Quasar 2017</a></li>
+            <li ><a href="/E-Magazines/quasar 2016.pdf">Quasar 2016</a></li>
+          </ul>
+        </li>
+      </ul>
+    </li>
+    </li>
+    </li>
+    </li>
+    <li><a href="#">Academic</a>
+      <ul>
+        <li><a href="aboutacademics.html">About Academic</a></li>
+        <li><a href="#"><span>Departments</span></a>
+          <ul>
+            <li ><a href="deptCompEngineering_home.html" target="_blank"><span>Computer Engineering</span></a> </li>
+            <li><a href="deptInformationTechnology_home.html" target="_blank"><span>Information Technology</span></a></li>
+            <li><a href="deptExTc_home.html" target="_blank"><span>Electronics & Tele-Communication Engineering</span></a> </li>
+            <li><a href="deptElectronicEngg_home.html" target="_blank"><span> Electronics and Computer Science</span></a></li>
+            <li><a href="deptmechanical_home.html" target="_blank"><span>Mechanical Engineering</span></a></li>
+            <li><a href="deptcivilengg_home.html" target="_blank"><span>Civil Engineering</span></a></li>
+            <!--<li><a href="https://comptcet.wixsite.com/cyber-security"><span>B.E - Computer Science and Engineering (Cyber Security)</span></a></li>-->
+            <li><a href="CSE" target="_blank"><span>Computer Science and Engineering (Cyber Security)</span></a></li>
+            <li><a href="MME" target="_blank"><span>Mechanical and Mechatronics Engineering (Additive Manufacturing)</span></a></li>
+            <!--<li><a href="https://mechatronicstcet.wixsite.com/mechanical" target="_blank"><span>B.E - Mechanical and Mechatronics Engineering (Additive Manufacturing)</span></a></li>--> 
+            <!-- <li> <a href="https://tcetit.wixsite.com/be-it-aiml"><span>B.Tech - AI & ML</span></a></li>--> 
+            
+            <!--<li> <a href="https://comptcet.wixsite.com/btech-ai-ds"><span>B.Tech - AI & DS</span></a></li>--> 
+            <!--<li> <a href="https://sites.google.com/view/iotelextcet/home"><span>B.Tech - IOT</span></a></li>-->
+            <li> <a href="AI&ML" target="_blank"><span>Artificial Intelligence & Machine Learning(AI & ML)</span></a></li>
+            <li> <a href="AI&DS" target="_blank"><span>Artificial Intelligence & Data Science (AI & DS)</span></a></li>
+            <li> <a href="IOT" target="_blank"><span>Internet Of Things (IOT)</span></a></li>
+          </ul>
+        </li>
+        <li><a href="deptHumanitiesSci_home.html" target="_blank"><span>ES&H Department</span></a> </li>
+        <li><a href="#"><span>Faculty Development Programme</span></a>
+          <ul>
+            <li><a href="short_term_training.html">Short Term Training Programmes</a></li>
+            <li><a href="IIT_remote_center.html">IIT Remote Centre Programmes</a></li>
+            <li><a href="CII_EEF.html">Industry Institute Interaction ( CII - EEF )</a></li>
+          </ul>
+        </li>
+        <li><a href="publication report.html"><span>Faculty Publications</span></a>
+         
+        </li>
+        <li><a href="#"><span>Academic Calender</span></a>
+          <ul>
+            
+            <li ><a href="Notice/FE_Academic_Calendar_2021-22(Sem-I & II).pdf">F.E(Sem-I & II)</a></li>
+           
+            <li ><a href="Notice/FE_Sem-1_Academic_Calendar_2022-23.pdf">F.E(Sem-II)</a></li>
+            <li ><a href="Notice/Academic_Calender.pdf" target="_blank">U.G.(Odd Semester)</a></li>
+            <li  > <a href="Notice/ME calendar-2021-22.pdf" target="_blank">P.G.(Sem-I & II)</a></li>
+          </ul>
+        </li>
+        <li ><a href="academic_collaboration.html">Academic Collaboration</a></li>
+        <!--<li ><a href="downloads.html">Syllabus</a></li>-->
+      </ul>
+    </li>
+    <li><a href="rnd_home.html"> R & D</a> </li>
+    <li><a href="TNP home.html">Training &amp; Placement</a> </li>
+    <li><a href="#">HOC Cell</a>
+      <ul>
+        <li ><a href="About HOC.html">About HOC Cell</a></li>
+        <li ><a href="HOC Activities.html">HOC Cell Activities</a></li>
+        <li ><a href="HOC stat&achivement.html">Statistics & Achivement</a></li>
+        <li ><a href="TCET NPTEL local chapter.html">TCET-NPTEL Local Chapter</a></li>
+      </ul>
+    </li>
+    <li><a  href="#">IQAC</a>
+      <ul>
+        <li><a href="Director_IQAC Message.html" target="_blank">Director IQAC NAAC Message</a> </li>
+        <li><a href="/Notice/TCET_NAAC_2017.pdf" target="_blank">NAAC SSR</a> </li>
+        <li><a href="/Notice/IQAC/NAAC.pdf" target="_blank">NAAC Certificate </a></li>
+        <li><a href="#" target="_blank">Academic Performance Audit Report</a>
+          <ul>
+            <li><a href="/Notice/IQAC/APAR 2019-20_.pdf" target="_blank">2019-20 </a></li>
+            <li><a href="/Notice/IQAC/APAR 2020-21_.pdf" target="_blank">2020-21 </a></li>
+          </ul>
+        </li>
+        <li><a href="#" target="_blank">Minutes of Meeting</a>
+          <ul>
+            <li><a href="/Notice/IQAC/NAAC-MOM-1.pdf">MOM-I </a></li>
+            <li><a href="/Notice/IQAC/NAAC-MOM-2.pdf">MOM-II</a> </li>
+            <li><a href="/Notice/IQAC/MOM-3.pdf" target="_blank">MOM-III</a> </li>
+            <li><a href="/Notice/IQAC/MOM-4.pdf" target="_blank">MOM-IV</a> </li>
+            <li><a href="/Notice/IQAC/MOM-5.pdf" target="_blank">MOM-V</a> </li>
+            <li><a href="/Notice/IQAC/MOM-6.pdf" target="_blank">MOM-VI</a> </li>
+            <li><a href="/Notice/IQAC/MOM-7.pdf" target="_blank">MOM-VII</a> </li>
+            <li><a href="/Notice/IQAC/MOM-8.pdf" target="_blank">MOM-VIII</a> </li>
+            <li><a href="/Notice/IQAC/MOM-9.pdf" target="_blank">MOM-IX</a> </li>
+            <li><a href="/Notice/IQAC/MOM-10.pdf" target="_blank">MOM-X</a> </li>
+            <li><a href="/Notice/IQAC/MOM-11.pdf" target="_blank">MOM-XI</a> </li>
+            <li><a href="/Notice/IQAC/MOM-12.pdf" target="_blank">MOM-XII</a> </li>
+            <li><a href="/Notice/IQAC/MOM-13.pdf" target="_blank">MOM-XIII</a> </li>
+            <li><a href="/Notice/IQAC/MOM-14.pdf" target="_blank">MOM-XIV</a> </li>
+            <li><a href="/Notice/IQAC/MOM-15.pdf" target="_blank">MOM-XV</a> </li>
+			<li><a href="/Notice/IQAC/MOM-16.pdf" target="_blank">MOM-XVI</a> </li>
+          </ul>
+        </li>
+        <li><a href="/Notice/IQAC/IQACGuidelinesAQARFormatRevised.pdf" target="_blank">IQAC Guidelines AQAR Format Revised</a> </li>
+        <li><a  href="#">NAAC AQAR</a>
+          <ul>
+            <li><a href="/Notice/IQAC/MHCOGN27536 - Thakur College of Engineering and Technology, Mumbai, Maharashtra.pdf" target="_blank">2017-18</a> </li>
+            <li><a href="/Notice/IQAC/AQAR Report--- 2018-19.pdf" target="_blank">2018-19</a> </li>
+            <li><a href="/Notice/IQAC/AQAR report 2019-2020.pdf" target="_blank">2019-20</a> </li>
+			  <li><a href="/Notice/IQAC/AQAR 2020-21.pdf" target="_blank">2020-21</a> </li>
+          </ul>
+        </li>
+        <li><a href="Best Practice.html" target="_blank">Best Practices</a> </li>
+        <li><a href="/Notice/IQAC/Resource Management.pdf" target="_blank">Resource Management</a> </li>
+      </ul>
+    </li>
+    <li><a  href="#">Examination</a>
+      <ul>
+        <li ><a href="aboutexamsection.html">About Examination Cell</a></li>
+        <li ><a href="Internal.html">Internal</a></li>
+        <li ><a href="convocation data.html"><img src="image/new01.gif"/>Updated Convocation Data (May-2022)</a></li>
+        <li ><a href="Semester End.html" >Semester End</a></li>
+        <li ><a href="examnotification.html">Notifications</a></li>
+        <li ><a href="timetable.html">Time Table </a></li>
+        <li ><a href="result.html">Results</a></li>
+        <li ><a href="examination/ACHIEVEMENT.pdf">Achievements</a></li>
+        <li ><a href="Examination/First convocation book (Low rez).pdf" target="_blank">Proceedings</a></li>
+      </ul>
+    </li>
+    <li><a href="#">Central Library - LRC</a>
+      <ul>
+        <li><a href="aboutLRC.html">About Learning Resource Center</a></li>
+        <li><a href="#">Departmental Library</a></li>
+        <li><a href="LRCTiming.html">Learning Resource Center Timing</a></li>
+        <li><a href="facilities_library.html">Infrastructure & Facility of LRC</a></li>
+        <li><a href="LRCHolding.html">LRC Holding</a></li>
+        <li><a href="LRCInstruction.html">General Instruction for LRC</a></li>
+        <li><a href="LRCUsage.html">LRC Usage</a></li>
+        <li><a href="LRCArrivals.html">New Arrivals at LRC</a></li>
+        <li><a href="LRCPublication.html">TCET Publication</a></li>
+        <li><a href="LRCCommittee.html">LRC Committee</a></li>
+        <li><a href="elinks.html">Virtual Reading Resource</a></li>
+        <li><a href="E_resources.html">E-Resources</a></li>
+      </ul>
+    </li>
+    <li><a href="#">Events</a>
+      <ul>
+        <li><a href="IQACNS2021/" target="_blank">TCET-IQAC's	National	Symposium 2021 </a></li>
+        <li><a href="tv2035/" target="_blank">National	Symposium on Technology	Vision
+          2035:	An	Educational	Perspective</a></li>
+        <li><a href="iis2021" target="_blank">Industry	Institute	Symposium 2021</a> </li>
+        <li><a href="PI2021/" target="_blank">Progressive	India	2021</a></li>
+      </ul>
+    </li>
+  <li>
+    <a href="#">Life@TCET</a>
+    <ul>
+      <li ><a href="aboutLifeTCET.html">About Life@TCET</a></li>
+      <li ><a href="studentActivities.html">Students' Council - TCET</a></li>
+      <li ><a href="facilities@TCET.html">Facilities@TCET</a></li>
+      <li ><a href="https://www.tedxtcet.com/" target="_blank">TEDx-TCET</a></li>
+      <li ><a href="https://www.rctcet.org/" target="_blank">Rotaract club of TCET</a></li>
+      <li ><a href="https://tcetsort.wixsite.com/sort" target="_blank">TCET-SORT Club</a></li>
+      <li ><a href="nipTCET.html" target="_blank">TCET-NIP</a> </li>
+      <li ><a href="InstitutionalInternship.html">In-house Internship</a></li>
+      <li ><a href="SAE_India-TCET_2020-21.pdf" target="_blank">SAE India – TCET (A.Y. 2020-21)</a></li>
+      <li><a href="#"><span>Professional Bodies</span></a>
+        <ul>
+          <li ><a href="https://site.ieee.org/sb-tcet/">IEEE- TCET</a></li>
+          <li ><a href="csiTCET.html">CSI- TCET</a></li>
+          <li ><a href="https://tcetiete2018.wixsite.com/iete" target="_blank">IETE-TCET</a></li>
+          <!--<li ><a href="isteTCET.html">ISTE-TCET</a></li>--> 
+          <!--<li ><a href="http://iste.tcetmumbai.in/" target="_blank">ISTE-TCET</a></li>-->
+          <li ><a href="https://www.tcet-iste.org/" target="_blank">ISTE-TCET</a></li>
+          <li ><a href="https://tcetsort.wixsite.com/sort" target="_blank">TCET-SORT Club</a></li>
+          <li ><a href="IT ACM.html">ACM-TCET</a></li>
+          <li ><a href="asmeTCET.html">ASME-TCET</a></li>
+          <li ><a href="CIVIL Concrete tcet.html">ASCE-TCET</a></li>
+        </ul>
+      </li>
+      <li><a href="#"><span>Social Bodies</span></a>
+      <li ><a href="nssTCET.html">NSS- TCET</a></li>
+      <li ><a href="ewtTCET.html">EWT-TCET</a></li>
+      <li ><a href="#" target="_blank">TCET-NCC</a>
+        <ul>
+          <li ><a href="HNS/TCET-NCC.pdf" target="_blank">Vision & Objectives</a></li>
+          <li ><a href="NCC/TCET-NCC Weekly Activity Report 24 April-01 May 22.pdf" target="_blank">Weekly Activity Report</a></li>
+          <li ><a href="NCC/Patriotic Run Report.pdf" target="_blank">Patriotic Run Report</a></li>
+          <li ><a href="E-Magazines/NCC E-Magazine.pdf" target="_blank">E-Magazine</a></li>
+        </ul>
+      </li>
+      </li>
+      <li ><a href="Achievements.html">Achievements</a></li>
+      <li ><a href="Notice/AICTE guidelines for Industrial visit.pdf">AICTE guidelines for Industrial visits</a></li>
+    </ul>
+    </li>
+    <li><a href="#">Alumni</a>
+      <ul>
+        <li><a href="aboutAlumni.html">About Alumni</a></li>
+        <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSecTJ62tLDeyzVV_26X1Ty30UKJYrmzh7BagIYNoIPr8xPmzw/viewform">Alumni Registration Form</a></li>
+      </ul>
+    </li>
+    <li><a href="#">Careers</a>
+      <ul>
+        <li><a href="careers.html">About Careers</a></li>
+        <li><a href="careers/Recruitment Advertisement.pdf" target="_blank">Recruitment Advertisement-Teaching<a></li>
+		<li><a href="careers/Recruitment Advertisement_nonteaching.pdf" target="_blank">Recruitment Advertisement-Non Teaching</a></li>
+        <li ><a href="careers/FacultyCadre.pdf">AICTE-Faculty Position Qualification and Experience Eligibility</a></li>
+        <li ><a href="careers/concol_04.pdf">UoM-Faculty Position Qualification and Experience Eligibility[CONCOL/ICC/04 of 2012]</a></li>
+        <li ><a href="careers/EquivalenceCircular.pdf">UoM-Qualification Equivalance</a></li>
+        <li ><a href="careerRegular.html">Faculty Application form (Regular)</a></li>
+        <li ><a href="careers/INTERVIEW FORM-06.04.2018.pdf">Download Faculty Application (Ad-Hoc)</a></li>
+        <!--<li><a href="Notice/Advertise-26-04-2017.pdf">Recruitment Advertisement</a></li><li> <a href="Notice/USSC INTERVIEW DATES.pdf" >U.S.S.C. Interview dates for 2017-18</a></li>-->
+      </ul>
+    </li>
+    <li><a href="#">Web Portals</a>
+      <ul>
+        <li><a href="http://erp.tcetmumbai.in/" target="_blank">ERP Portal</a></li>
+        <li><a href="http://grievance.tcetmumbai.in/" target="_blank">Grievance Redressal Portal</a></li>
+        <li><a href="http://ict.tcetmumbai.in/" target="_blank">ICT Complaint Management Portal</a></li>
+        <!--<li><a href="#">Student Suggestions Portal</a></li>--> 
+        <!-- <li><a href="https://docs.google.com/forms/d/e/1FAIpQLSdmLqK284OCpUvx0C3_2zzOJVWLbersD5asfog26d9O1vRBPw/viewform?c=0&w=1">Feedback Form</a></li>--> 
+        
+        <!--<li><a href="studentfeedback.aspx">Feedback Form</a></li>--> 
+        <!--<li><a href="SelectLogin.aspx">Feedback Form</a></li>-->
+        
+      </ul>
+    </li>
+    <li><a href="#">Contact Us</a>
+      <ul>
+        <li><a href="travelDirection.html">Travel Direction</a></li>
+        <li><a href="contact.html">Contact Information</a></li>
+       
+      </ul>
+    </li>
+  </ul>
+</nav>
+<div class=wrapper>
+  <style>
+.table-curved{border: solid #ccc 1px; border-color:#E6771C;border-width:thick;height:240px;text-align:justify;}.table-curved tr:last-child td{border-top-left-radius: 10px; border-top-right-radius: 10px;}@keyframes anim{0%{background-position: 0 0;}100%{background-position: 50px 50px;}}.bar{position: relative;border: #E6771C 5px solid;background: #f2bb8d;border-radius: 10px;top: 0;bottom: 0;left: 0;right: 0;width: 1000px;height: 50px;overflow: hidden;background-size: 50px 50px;line-height:20px;}.bar:hover{background-image: linear-gradient(-45deg, #E6771C 25%, #f2bb8d 25%, #f2bb8d 50%, #E6771C 50%, #E6771C 75%, #f2bb8d 75%);/* background-image: linear-gradient(-45deg, #33c9ff 25%, #00b2f2 25%, #00b2f2 50%, #33c9ff 50%, #33c9ff 75%, #00b2f2 75%);*/animation: anim 1s linear infinite;}.bar p{margin-top:10px;margin-bottom: 10px !important;font-size: 27px !important;text-align: center!important;color: white !important;}
+</style>
+</div>
+<div class="wrapper row3">
+<div class=rounded>
+<style>
+	
+	#thover{
+  position:static;
+  background:#000;
+  width:100%;
+  height:100%;
+  opacity: .5
+	 
+}
+
+#tpopup{
+  position:absolute;
+  width:600px;
+  height:250px;
+  background:#fff;
+  left:50%;
+  top:60%;
+  border-radius:5px;
+  padding:60px 0;
+  margin-left:-320px; /* width/2 + padding-left */
+  margin-top:-250px; /* height/2 + padding-top */
+  text-align:center;
+  box-shadow:0 0 10px 0 #000;
+	z-index: 1;
+}
+#tclose{
+  position:absolute;
+  background:black;
+  color:white;
+  right:-15px;
+  top:-15px;
+  border-radius:50%;
+  width:30px;
+  height:30px;
+  line-height:30px;
+  text-align:center;
+  font-size:8px;
+  font-weight:bold;
+  font-family:'Arial Black', Arial, sans-serif;
+  cursor:pointer;
+  box-shadow:0 0 10px 0 #000;
+}
+		
+	</style>
+<div id="thover"></div>
+
+<!--  <div id="tpopup">
+	  
+	<!--  <a href="images/Add forFirst Year Vacants seats Civil Engineering2019.jpg" target="_blank"><img src="images/Add forFirst Year Vacants seats Civil Engineering2019.jpg"> </a>
+	  
+   <a href="images/NASA Challange.jpg"><img src="images/NASA Challange.jpg"> </a>
+
+    <div id="tclose">X</div>    
+</div>-->
+
+<main class="clear container">
+<table width="100%" border="0" cellspacing="0" cellpadding="0" bgcolor="#C0C0C0" align="center" height="20px">
+  <tr >
+    <td style="background-color:#C0C0C0"><marquee onMouseOver="this.stop()" onMouseOut="this.start()" scrolldelay="0" scrollamount="4" behavior="scroll" direction="left" id="msg">
+      <font color="#CE4300" style="font-size:12px;">&quot;Man is made by his belief. As he believes,so he is.&quot;- </font><font color="#153F74">Bhagavad-Gita </font>
+      </marquee></td>
+  </tr>
+</table>
+<style>
+/*.tmo_list{margin: 0; padding: 0; list-style: none}*/.tmo_list li{color:#000;margin:0 0 2px 6px;padding: 3px 0 3px 1px;list-style-image: url(image/arrows.gif);}.content_box{clear: both;margin-bottom: 30px;padding-bottom: 30px;border-bottom: 1px dashed #333;border: 1px solid #cccccc;padding: 5px;}.col_w220{float: left;width: 307px;margin-right: 02px;margin-left: 02px;font-size:12px;margin-left:10px;}
+</style>
+<style>
+.col_w22011{float: left;width: 307px;margin-right: 02px;margin-left: 02px;font-size:12px;margin-left:10px;}
+		
+		.col_w22011 table{
+			height: 18px;
+			
+		}		
+</style>
+<div class="col_w220">
+  <td width="31%" ><table style="border:solid;border-color:#E6771C;border-radius: 07px;height:100px" border="0" cellspacing="0" cellpadding="2">
+      <tr >
+        <td style="background-color:#E6771C;color:#FFFFFF;text-align:center;font-size:18px;height:35px;">Vision</td>
+      </tr>
+      <tr style="height:100px">
+        <td align="center" style="background-color:#FFFFFF; font-size:12px;" ><div align="justify" style="line-height:1.5em;"><font color="#000000;">&quot;Thakur College of Engineering and Technology will excel in Technical Education to become an internationally renowned premier Institute of Engineering and Technology&quot;</font></div></td>
+      </tr>
+    </table></td>
+</div>
+<div class="col_w220">
+  <td width="38%" ><table style="border:solid;border-color:#E6771C;border-radius: 07px;height:100px;" border="0" cellspacing="0" cellpadding="2">
+      <tr>
+        <td style="background-color:#E6771C;color:#FFFFFF;text-align:center;font-size:18px;height:35px">Mission </td>
+      </tr>
+      <tr style="height:100px">
+        <td align="center" style="background-color:#FFFFFF; font-size:12px;"><div align="justify" style="line-height:1.3em;"><font color="#000000;">&quot;To provide state-of-the-art infrastructure and right academic ambience for developing professional skills as well as an environment for growth of leadership and managerial skills to students which will make them competent engineers to deliver quality results in industry&quot;</font></div></td>
+      </tr>
+    </table></td>
+</div>
+<div class="col_w220 last_col">
+  <td width="31%" ><table style="border:solid;border-color:#E6771C;border-radius: 07px;;height:100px" border="0" cellspacing="0" cellpadding="2">
+      <tr >
+        <td style="background-color:#E6771C;color:#FFFFFF;text-align:center;font-size:18px;height:35px">Beliefs</td>
+      </tr>
+      <tr style="height:100px;">
+        <td align="center" style="background-color:#FFFFFF; font-size:12px;"><div style="text-align:left; line-height:1.3em;"> <img src="image/arrows.gif"/><font color="#000000;">&quot;Education is the manifestation of perfection &nbsp;&nbsp;&nbsp;&nbsp;already existing in man.&quot;
+            <div align="right"><cite><font color="#CE4300">Swami Vivekananda</font></cite></div>
+            <img src="image/arrows.gif"/>&quot;Work is Worship&quot;, &quot;Cleanliness is next to &nbsp;&nbsp;&nbsp;&nbsp;Godliness&quot;<br/>
+            <div align="right"><cite><font color="#CE4300"> Anonymous</font></cite></div>
+          </div>
+      </tr>
+    </table></td>
+</div>
+<style>
+.table-curved{border-collapse:separate; border: solid #ccc 0.5px; border-radius: 10px;border-color:#E6771C;border-width:0px;}
+.bar p:hover{text-decoration:underline;
+color:#ffffff;}
+
+.bar a{
+	font-weight:bold; font-size:14px;
+	color:#004080;
+}
+
+.bar a:hover{
+	color:#004080;
+	font-size:16px;}
+
+.one_half{padding-bottom:0px;padding-left:0px;padding-right:0px;}
+</style>
+<div class="col_w22011">
+  <table align="center" class="table table-curved" id="nextTeamTable" >
+    <td class="bar"><p align="right"><a href="Notice/Accreditation Letters from NBA.pdf" target="_blank">NBA Accreditation Letters <br/>
+          <br/>
+          <!--Valid upto 30-06-2022--></a></p></td>
+  </table>
+</div>
+<div class="col_w22011">
+  <table align="center" class="table table-curved" id="nextTeamTable" >
+    <td class="bar"><p align="right" style="height:40px;"><a href="Notice/NAAC 2017.pdf" target="blank">Awarded "A" Grade by NAAC for 5 years w.e.f. 30-10-2017</a> <br/>
+        </p></td>
+  </table>
+</div>
+<div class="col_w22011 last_col">
+  <table align="center" class="table table-curved" id="nextTeamTable" >
+    <td class="bar"><p align="right"><img src="image/new01.gif"/><a href="Notice/2(f) & 12(B) Letter - UGC.pdf" target="_blank">Inclusion under Section 2(f)&12(B)</a><br>
+          <a href="Notice/Autonomy Letter - UGC.pdf" target="_blank">Conferment of Autonomous Status</a></p></td>
+  </table>
+</div>
+
+<!--------------------------------------------------------------------------->
+
+<table align="center" class="table table-curved" id="nextTeamTable" style="height: 50px;" >
+  <td class="bar"><marquee onMouseOver="this.stop()" onMouseOut="this.start()" scrolldelay="0" scrollamount="5" behavior="scroll" direction="left" id="msg">
+      <a href="IIC 4 Star Rating.pdf" target="_blank"><img src="image/new01.gif"/>Institution's Innovation Council (2020-21) Annual Performance: College & Standalone Institutions Category <font size="+1">Thakur College of Engineering & Technology has achieve 4 Star Rating in the scale of 5 Star</font> </a>&nbsp;|| <a href="CBCGS-H-2019.pdf" target="_blank">Driving Academic Excellence... through CBCGS-H 2019 Under TCET Autonomy Scheme-2019</a>&nbsp;|| <a href="Notice/NIRF 2019 Certificate.pdf" target="_blank">Secured position in top 200 institutes in India (Engineering Category) with 193rd rank in NIRF India Rankings - 2019</a>
+      </marquee></td>
+</table>
+<div class="col_w22011">
+  <table align="center" class="table table-curved" id="nextTeamTable" >
+    <td class="bar"><p align="right" style="height:40px; line-height: 1.5em;"><a href="NIRF_Data.html" >NIRF Data</a><!--<br>
+          <a href="NIRF_2016.html">2016</a>&nbsp;&nbsp;<a href="NIRF_2017.html" >2017</a>&nbsp;&nbsp;<a href="NIRF_2018.html" >2018</a>&nbsp;&nbsp;<a href="NIRF_2019.html" >2019</a>&nbsp;&nbsp;<a href="NIRF_2020.html" >2020</a>&nbsp;&nbsp;<a href="NIRF_2021.html" >2021</a>--></p></td>
+  </table>
+</div>
+<div class="col_w22011">
+  <table align="center" class="table table-curved" id="nextTeamTable" >
+    <td class="bar"><p align="right" style="height:40px; line-height: 1.5em;"> <a href="Notice/TCET_NAAC_2017.pdf" target="_blank">NAAC SSR</a></p></td>
+  </table>
+</div>
+<div class="col_w22011 last_col">
+  <table align="center" class="table table-curved" id="nextTeamTable" >
+    <!--<td class="bar"><p align="right"><a href="" target="_parent">Secured place in Platinum Category in AICTE-CII Survey-2016,2017,2018,2019&2020</a></p></td>-->
+    
+    <td class="bar"><p align="right"><a href="" target="_parent">Secured place in Platinum Category in AICTE-CII Survey - 2016 to 2020</a></p></td>
+  </table>
+</div>
+<table width="100%" border="0" cellspacing="0" cellpadding="0" bgcolor="#C0C0C0" align="center" style="margin-bottom:02px;" >
+<tr>
+<td width="07%" style="background-color:#C0C0C0"><font color="#004080"><strong>News Flash</strong></font></td>
+<td width="50%" style="background-color:#C0C0C0; font-size:12px;">
+<marquee onMouseOver="this.stop()" onMouseOut="this.start()" scrolldelay="0" scrollamount="5" behavior="scroll" direction="left" id="msg">
+<style>
+		
+		.blink_me {
+		color:red;
+  animation: blinker 1s linear infinite;
+}
+
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
+}
+		</style>
+	
+	
+	<img src="image/new01.gif"><a href="Notice/unofficial iv.pdf" target="_blank"><font color="#006600">&nbsp;Part of Unofficial Industrial Visit-IV[Trip]</font></a>&nbsp;
+	
+	<img src="image/new01.gif"><a href="Notice/2022/Notice to All students and staff for Free Booster Dose Vaccinat.pdf" target="_blank"><font color="#006600">&nbsp;Notice to All students and staff for Free Booster Dose Vaccination</font></a>&nbsp;
+	
+	
+	
+<img src="image/new01.gif"><a href="careers/Recruitment Advertisement.pdf" target="_blank"><font color="#006600">&nbsp;Faculty Recruitment Advertisement for A.Y. 2022-23.</font></a>&nbsp;|| <img src="image/new01.gif"><a href="/Notice/AC-STEM 2022.pdf" target="_blank"><font color="#006600">&nbsp;AC-STEM-2022, A fun-filled national level online event for 11th and 12th students of any stream(Arts/Science/Commerce)</font></a>&nbsp;|| <img src="image/new01.gif"><a href="https://ekbharat.gov.in/" target="_blank"><font color="#006600">&nbsp;Hyperlink of EBSB Portal</font></a>&nbsp;|| <img src="image/new01.gif"><a href="nipTCET.html" target="_blank"><font color="#006600">&nbsp;Hyperlink of TCET-NIP</font></a>&nbsp;|| <img src="image/new01.gif"><a href="/Notice/PG Admission Notification TCET.pdf" target="_blank"><font color="#006600">&nbsp;POST GRADUATE (MASTER OF ENGINEERING) COURSES IN ENGINEERING & TECHNOLOGY</font></a>&nbsp;|| <img src="image/new01.gif"><a href="timetable.html" target="_blank"><font color="#006600">&nbsp;END SEMESTER EXAMINATION SECOND HALF OF 2021 (NOVEMBER 2021) (CBCGS-H 2019)</font></a>&nbsp;|| <img src="image/new01.gif"><a href="certification.html" target="_blank"><font color="#006600">&nbsp;Certification Courses</font></a>&nbsp;|| <img src="image/new01.gif"><a href="scholarship_notification.html" target="_blank"><font color="#006600">&nbsp;Scholarship Notifications</font></a>&nbsp;|| 
+ <a href="http://nad.gov.in/" target="_blank"><font color="#006600">Hyperlink of National Academic Depository (NAD) Website</font></a> &nbsp;|| 
+
+</tr>
+</table>
+<style>
+.wrappers{overflow:hidden;}.wrappers div{}#ones{float:left; margin-right:10px; width:420px;}#twos{margin-top:10px; overflow:hidden;}@media screen and (max-width: 400px){#ones{float: none; margin-right:0; width:auto; border:0;}}
+</style>
+<div class="wrappers">
+  <div id="ones">
+    <div id="message_board"> <strong style="font-size:16px;color:#153F74;font-weight:800;">About TCET (20 Glorious Year of TCET) </strong><br/>
+     
+      
+      <div style="text-align:justify;padding-left:2px;font-size:12px;margin-top:10px;margin-bottom:5px; line-height:20px;"><font color="#000000">Thakur College of Engineering & Technology (TCET), a Graded Autonomous Linguistic Minority Institute, was established in AY 2001-02 with a clear objective of providing Quality Technical Education in tune with international standards and contemporary global requirements. The Institute is recognized by All India Council for Technical Education (AICTE) & Government of Maharashtra and is affiliated to the University of Mumbai (UOM). It has been conferred Autonomous Status by University Grant Commission (UGC) for 10 years w.e.f. A.Y. 2019-20 to A.Y. 2028-29.</font><br/>
+        <font style="color:#000099; line-height:20px;">TCET offers 12 UG (8 in Engineering, 3 in Technology and 1 in Vocational Course), 3 PG and 3 Ph.D. (Tech.) programmes. TCET is ISO 9001:2015 certified Institute. Certification has helped Institute to develop a process driven student centric system required for quality education in 21st century. Institute is accredited by NAAC with “A” grade for five years and 4 engineering programmes (COMP, IT, E&TC and ELEX) are accredited by NBA (Multiple Accreditation cycles) for three years till 2022. The first 3 programmes are also given permanent affiliation w.e.f. A.Y. 2015-16 and the fourth one has been given permanent affiliation w.e.f. A.Y. 2017-18. TCET has implemented Holistic Multidisciplinary Education which is as per National requirement in building the budding Engineers for Global opportunities.&nbsp;&nbsp;</font><a href="About Us.html" >Read more...</a></div>
+    </div>
+  </div>
+  <div id="twos">
+    <div id="wrapper">
+      <div class="slider-wrapper theme-default">
+        <div id="slider" class="nivoSlider">
+			<img src="image/main page/banner_1.jpg" title="College Building" style="height: 298px;">
+			<img src="image/main page/Sudents of Civil with Hon minister.jpeg" title="Shri. Kaushal Kishore, Minister of Housing and Urban Affairs appreciating Civil Department Innovation at Indian Urban Housing Conclave 2022 at Rajkot (Gujrat)" style="height: 298px;">
+			<img src="image/main page/Civil_Engg_student_Rajkot.jpeg" title="Team from Civil Department presenting their Innovation at Indian Urban Housing Conclave 2022 at Rajkot (Gujrat)" style="height: 298px;">
+			<img src="image/main page/Hackethon winners.jpg" style="height: 298px;" title=""> 
+			<img src="image/main page/Chairman_with_Karan_sir.JPG" title="" style="height: 298px;"> 
+			<img src="image/main page/KaranSir1.JPG" title="" style="height: 298px;"> 
+			<img src="image/main page/KaranSir3.JPG" title="" style="height: 298px;">          
+            <img src="image/main page/KaranSir_T&Pteam.JPG" title="" style="height: 298px;"> 
+			<img src="image/main page/GroupPhoto2.JPG" alt="" title="" style="height: 298px;"> </div>
+       
+      </div>
+    </div>
+  </div>
+</div>
+<table width="100%" border="0" cellspacing="0" cellpadding="0" bgcolor="#C0C0C0" align="center" height="40px;" style="margin-top:02px; margin-bottom:01px;">
+  <tr>
+    <td width="20%" style="background-color:#C0C0C0"><font color="#004080"><strong>Notices & Circulars</strong></font></td>
+    <td width="84%" style="background-color:#C0C0C0; font-size:12px;"><marquee onMouseOver="this.stop()" onMouseOut="this.start()" scrolldelay="80" scrollamount="5" behavior="scroll" direction="left" id="msg">
+		
+		<img src="image/new01.gif"><a href="/Notice/2022/SE & ST students payment of Fees.pdf" target="_blank"><font color="#006600">&nbsp;Payment of Fees for Eligible Students(SE and ST Students)</font></a>&nbsp;||
+		
+		<img src="image/new01.gif"><a href="/Notice/2022/Personality development seminar for female students on 26.08.pdf" target="_blank"><font color="#006600">&nbsp;Personality development seminar for female students on 26-08-22</font></a>&nbsp;||
+		
+		
+		<img src="image/new01.gif"><a href="/Notice/2022/Submission of Payment Details.pdf" target="_blank"><font color="#006600">&nbsp;Submission of Payment Details</font></a>&nbsp;||
+		
+		
+		<img src="image/new01.gif"><a href="/Notice/2022/Notice no. 119 List of students for payment of fees to Ph.D E&T.pdf" target="_blank"><font color="#006600">&nbsp;List of students for payment of fees to Ph.D E&T</font></a>&nbsp;||
+		
+		<img src="image/new01.gif"><a href="/Notice/2022/Complaints to be sent on institute various platforms.pdf" target="_blank"><font color="#006600">&nbsp;Complaints to be sent on institute various platforms</font></a>&nbsp;||
+			
+
+		
+	<img src="image/new01.gif"><a href="/Notice/2022/One to One Counseling for final year students (Batch 2023).pdf" target="_blank"><font color="#006600">&nbsp;One to One Counseling for final year students (Batch 2023)</font></a>&nbsp;||
+		
+		<img src="image/new01.gif"><a href="/Notice/2022/B. VOC Classes to begin from 5th August 2022.pdf" target="_blank"><font color="#006600">&nbsp;B. VOC Classes to begin from 5th August 2022</font></a>&nbsp;||
+		<img src="image/new01.gif"><a href="/Notice/2022/Notice for Admission Form (SE, TE and BE).pdf" target="_blank"><font color="#006600">&nbsp;Notice for Admission Form (SE, TE and BE)</font></a>&nbsp;||
+		
+		
+		
+		
+		<img src="image/new01.gif"><a href="/Notice/2022/Payment of FEE Notice no. 110 dated 27.07.2022.pdf" target="_blank"><font color="#006600">&nbsp;Extension of date for payment of Fees for Eligible Students </font></a>&nbsp;||
+<!--		
+		<img src="image/new01.gif"><a href="/Notice/2022/Extension of date for payment of Fees for Eligible Students.pdf" target="_blank"><font color="#006600">&nbsp;Extension of date for payment of Fees for Eligible Students </font></a>&nbsp;||-->
+		
+		<img src="image/new01.gif"><a href="/Notice/2022/Scholarship for needy students.pdf" target="_blank"><font color="#006600">&nbsp;
+     Scholarship for needy students from Institute/philanthropist/Industrialist </font></a>&nbsp;||
+		
+		
+		<img src="image/new01.gif"><a href="/Notice/2022/Notice of TSDW association AY 2022-2023.pdf" target="_blank"><font color="#006600">&nbsp;
+     Student Development and Welfare Association (TSDW) for the A.Y. 2022-23</font></a>&nbsp;||
+		
+<!--		<img src="image/new01.gif"><a href="/Notice/2022/Principal address on 5th july 2022.pdf" target="_blank"><font color="#006600">&nbsp;
+      Principal's address on 5ᵗʰ July 2022 (All TE & BE Students)</font></a>&nbsp;||-->
+		
+		<img src="image/new01.gif"><a href="/Notice/2022/TSDWA AY 2022-23.pdf" target="_blank"><font color="#006600">&nbsp;
+     TCET STUDENT DEVELOPMENT AND WELFARE ASSOCIATION (TSDW) MEMBERSHIP FEES- A.Y.2022-23</font></a>&nbsp;||
+		
+		<img src="image/new01.gif"><a href="/Notice/2022/Payment of fees for TE & BE.pdf" target="_blank"><font color="#006600">&nbsp;
+      Payment of Fees for Eligible Students T.E. and B.E. (All Branches)</font></a>&nbsp;||
+		
+		 <img src="image/new01.gif"><a href="/Notice/2022/ESD Notice 01072022.pdf" target="_blank"><font color="#006600">&nbsp;
+      Employability Skills Development(ESD) programme for Third Year (TE) students</font></a>&nbsp;||
+		
+		 <img src="image/new01.gif"><a href="/Notice/2022/Parking Charges for student.pdf" target="_blank"><font color="#006600">&nbsp;
+      Parking charges-A.Y.2022-2023 (All Students) </font></a>&nbsp;|| 
+		
+		 <img src="image/new01.gif"><a href="/Notice/2022/Non payment of Ph. D fee A.Y. 2021-2022.pdf" target="_blank"><font color="#006600">&nbsp;
+      Non payment of fees A. Y. 2021-2022 - All Ph.D. Students (E&TC, COMP, IT)
+ </font></a>&nbsp;|| 
+		
+		
+		
+		 <img src="image/new01.gif"><a href="/Notice/2022/Ph D. Notice Ms. Koti Jayasudha.pdf" target="_blank"><font color="#006600">&nbsp;
+      Ph.D. "Online Open Defence Viva" of Ms. Koti Jayasudha for the award of Degree of the "Doctor 
+of Philosophy (Technology)" in Electronics & Telecommunication Engineering Branch
+ </font></a>&nbsp;|| 
+		
+		 <img src="image/new01.gif"><a href="/Notice/2022/P h D. Notice Mr. Kiran Rathod.pdf" target="_blank"><font color="#006600">&nbsp;
+      Ph.D. "Online Open Defence Viva" of Mr. Kiran Rathod for the award of Degree of the "Doctor of 
+Philosophy (Technology)" in Electronics & Telecommunication Engineering Branch
+ </font></a>&nbsp;|| 
+		
+      <img src="image/new01.gif"><a href="/Notice/2022/Notice for Yoga Day 2022.pdf" target="_blank"><font color="#006600">&nbsp;
+      Institute will organize International Yoga Day on 21st June 2022 </font></a>&nbsp;|| 
+		
+		<img src="image/new01.gif"><a href="/Notice/2022/Notice No. 79 dated 14.06.2022.pdf" target="_blank"><font color="#006600">&nbsp;
+      Final Reminder for Fee Payment (All Students FE to BE) </font></a>&nbsp;|| <img src="image/new01.gif"><a href="/Notice/2022/commencement of Semester.pdf" target="_blank"><font color="#006600">&nbsp;
+      Commencement of Semester- 5<sup>th</sup> July 2022. All Students (T.E. and B.E) </font></a>&nbsp;|| <img src="image/new01.gif"><a href="/Notice/2022/MahaDBT_21-22_31-05-2022.pdf" target="_blank"><font color="#006600">&nbsp;
+      MahaDBT portal online link will remain open till 31.05.2022 for Rajarshi Chhatrapati Shahu Maharaj Shikshan Shulk Shishyavrutti Yojna (EBC)A.Y. 2021-22. </font></a>&nbsp;|| <img src="image/new01.gif"><a href="Notice/2022/B. Voc Exam Fees Notice 20220517.pdf" target="_blank"><font color="#006600">&nbsp;
+      Exam fees of University of Mumbai to be paid to University. All Students B.Voc (AI&DS). </font></a>&nbsp;||
+		
+      </marquee></td>
+  </tr>
+</table>
+	<table>
+	<tr>
+		<td width="50%">
+		<h1 style="background-color:#004080; color:#FFFFFF; text-align:center; font-size:16px; margin-bottom:02px;"> TCET Awards &amp; Recognition </h1>
+<div id="tcet_main" >
+  <marquee behavior="scroll" direction="left" scrollamount="10" scrolldelay="7" onmouseover="this.stop()" onmouseout="this.start()" >
+  <a href="image/Engineering Prizes JPG/icon/RecoginitionAWARDS.jpg" class="flipLightBox" > <img src="image/Engineering Prizes JPG/icon/RecoginitionAWARDS.jpg" style="height:250px;" alt="flipLightBox Image"/> <span><b></b> </span> </a> &nbsp;&nbsp; <a href="image/Engineering Prizes JPG/awards/NAAC CERTIFICATE FRAME.jpg" class="flipLightBox" > <img src="image/Engineering Prizes JPG/icon/NAAC CERTIFICATE FRAME.jpg" style="height:250px;" alt="flipLightBox Image"/> <span><b></b> </span> </a> &nbsp;&nbsp; <img src="image/Engineering Prizes JPG/icon/NBA_Acrreditation_mech&civil1.jpg" style="height:250px;"/> &nbsp;&nbsp; <img src="image/Engineering Prizes JPG/icon/NBA_Acrreditation_mech&civil2.jpg" style="height:250px;"/> &nbsp;&nbsp; <img src="image/Engineering Prizes JPG/icon/NBA_Acrreditation5.jpg" style="height:250px;"/> &nbsp;&nbsp; <img src="image/Engineering Prizes JPG/icon/NBA_Acrreditation6.jpg" style="height:250px;"/> &nbsp;&nbsp; <img src="image/Engineering Prizes JPG/icon/NBA CERTIFICATE.jpg" style="height:250px;"/> &nbsp;&nbsp; <a href="image/Engineering Prizes JPG/awards/NIRF 2019 Certificate.jpg" class="flipLightBox" > <img src="image/Engineering Prizes JPG/awards/NIRF 2019 Certificate.jpg" style="height:250px;" alt="flipLightBox Image"/> <span><b></b> </span> </a> &nbsp;&nbsp; <a href="image/Engineering Prizes JPG/awards/award_9.jpg" class="flipLightBox" > <img src="image/Engineering Prizes JPG/icon/award_9.jpg" style="height:250px;" alt="flipLightBox Image"/> <span><b></b> </span> </a> &nbsp;&nbsp; <a href="image/Engineering Prizes JPG/awards/NPTEL.jpg" class="flipLightBox" > <img src="image/Engineering Prizes JPG/icon/NPTEL.jpg" style="height:250px;" alt="flipLightBox Image"/> <span><b></b> </span> </a> &nbsp;&nbsp; <a href="image/Engineering Prizes JPG/awards/award_1.png" class="flipLightBox" > <img src="image/Engineering Prizes JPG/icon/award_1.png" style="height:250px;" alt="flipLightBox Image"/> <span><b></b> </span> </a> &nbsp;&nbsp; <a href="image/Engineering Prizes JPG/awards/award_2.png" class="flipLightBox"> <img src="image/Engineering Prizes JPG/icon/award_2.png" style="height:250px"alt="flipLightBox Image"/> <span><b></b> </span> </a>&nbsp;&nbsp; <a href="image/Engineering Prizes JPG/awards/award_3.png" class="flipLightBox"> <img src="image/Engineering Prizes JPG/icon/award_3.png" style="height:250px" alt="flipLightBox Image"/> <span><b></b> </span> </a>&nbsp;&nbsp; <a href="image/Engineering Prizes JPG/awards/award_4.png" class="flipLightBox"> <img src="image/Engineering Prizes JPG/icon/award_4.png" style="height:250px" alt="flipLightBox Image"/> <span><b></b> </span> </a>&nbsp;&nbsp; <a href="image/Engineering Prizes JPG/awards/award_5.png" class="flipLightBox"> <img src="image/Engineering Prizes JPG/icon/award_5.png" style="height:250px" alt="flipLightBox Image"/> <span><b></b> </span> </a>&nbsp;&nbsp; <a href="image/Engineering Prizes JPG/awards/award_6.png" class="flipLightBox"> <img src="image/Engineering Prizes JPG/icon/award_6.png" style="height:250px" alt="flipLightBox Image"/> <span><b></b> </span> </a>&nbsp;&nbsp; <a href="image/Engineering Prizes JPG/awards/award_7.png" class="flipLightBox"> <img src="image/Engineering Prizes JPG/icon/award_7.png" style="height:250px" alt="flipLightBox Image"/> <span><b></b> </span> </a>&nbsp;&nbsp; <a href="image/Engineering Prizes JPG/awards/award_8.png" class="flipLightBox"> <img src="image/Engineering Prizes JPG/icon/award_8.png" style="height:250px" alt="flipLightBox Image"/> <span><b></b> </span> </a>&nbsp;&nbsp;
+  </marquee>
+</div>
+		</td>
+		<td>
+		
+		<h1 style="background-color:#004080; color:#FFFFFF; text-align:center; font-size:16px;">TCET Video Tour</h1>
+	<iframe  width="100%" height="300" src="https://www.youtube.com/embed/EPEbkGYBw3s?rel=0&modestbranding=1&autohide=1&mute=1&showinfo=0&controls=1&autoplay=1" title="TCET Tour" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+		</td>
+		
+		
+		</tr>
+	</table>
+
+
+<!--<iframe src="https://www.google.com/maps/embed?pb=!1m0!3m2!1sen!2s!4v1458023698347!6m8!1m7!1sb5tJkpb15F8AAAQvOgEzRA!2m2!1d19.20791387214176!2d72.87459244505646!3f195.59!4f-2.269999999999996!5f0.5970117501821992" width="100%" height="300" frameborder="0" style="border:0" allowfullscreen></iframe>-->
+
+<!--<h1 style="background-color:#004080; color:#FFFFFF; text-align:center; font-size:16px; margin-bottom:02px;"> #harrghartiranga </h1>
+<div id="tcet_main" >
+  <marquee behavior="scroll" direction="left" scrollamount="10" scrolldelay="7" onmouseover="this.stop()" onmouseout="this.start()">
+  <a href="https://harghartiranga.com/" class="flipLightBox1" > <img src="images/harghartiranga/Har-Ghar-Tiranga_Web-banner.png" style="height:250px;" alt="flipLightBox Image"/> <span><b></b> </span> </a> &nbsp;&nbsp; 
+	  <a href="images/harghartiranga/1.jpg" class="flipLightBox1" > <img src="images/harghartiranga/1.jpg" style="height:250px;" alt="flipLightBox Image"/> <span><b></b> </span> </a> &nbsp;&nbsp;
+	  <a href="images/harghartiranga/9.png" class="flipLightBox1" > <img src="images/harghartiranga/9.png" style="height:250px;" alt="flipLightBox Image"/> <span><b></b> </span> </a> &nbsp;&nbsp; 
+	  <a href="images/harghartiranga/2.jpg" class="flipLightBox1" > <img src="images/harghartiranga/2.jpg" style="height:250px;" alt="flipLightBox Image"/> <span><b></b> </span> </a> &nbsp;&nbsp;
+	  <a href="images/harghartiranga/10.png" class="flipLightBox1" > <img src="images/harghartiranga/10.png" style="height:250px;" alt="flipLightBox Image"/> <span><b></b> </span> </a> &nbsp;&nbsp; 
+	  <a href="images/harghartiranga/3 (1).jpg" class="flipLightBox1" > <img src="images/harghartiranga/3 (1).jpg" style="height:250px;" alt="flipLightBox Image"/> <span><b></b> </span> </a> &nbsp;&nbsp; 
+	  <a href="images/harghartiranga/3 (2).jpg" class="flipLightBox1" > <img src="images/harghartiranga/3 (2).jpg" style="height:250px;" alt="flipLightBox Image"/> <span><b></b> </span> </a> &nbsp;&nbsp;
+	  <!--<a href="images/harghartiranga/3 (3).jpg" class="flipLightBox1" > <img src="images/harghartiranga/3 (3).jpg" style="height:250px;" alt="flipLightBox Image"/> <span><b></b> </span> </a> &nbsp;&nbsp; -->
+	  <a href="images/harghartiranga/12.png" class="flipLightBox1" > <img src="images/harghartiranga/12.png" style="height:250px;" alt="flipLightBox Image"/> <span><b></b> </span> </a> &nbsp;&nbsp; 
+	  <a href="images/harghartiranga/5.jpg" class="flipLightBox1" > <img src="images/harghartiranga/5.jpg" style="height:250px;" alt="flipLightBox Image"/> <span><b></b> </span> </a> &nbsp;&nbsp; 
+	  <a href="images/harghartiranga/4.jpg" class="flipLightBox1" > <img src="images/harghartiranga/4.jpg" style="height:250px;" alt="flipLightBox Image"/> <span><b></b> </span> </a> &nbsp;&nbsp;
+	  <a href="images/harghartiranga/11.png" class="flipLightBox1" > <img src="images/harghartiranga/11.png" style="height:250px;" alt="flipLightBox Image"/> <span><b></b> </span> </a> &nbsp;&nbsp; 
+  </marquee>
+</div>
+	
+<!--<h1 style="background-color:#004080; color:#FFFFFF; text-align:center; font-size:16px; margin-bottom:02px;"> #Unite2FightCorona </h1>
+<div id="tcet_main" >
+  <marquee behavior="scroll" direction="left" scrollamount="10" scrolldelay="7" onmouseover="this.stop()" onmouseout="this.start()">
+  <a href="image/main page/Corona-Hoarding-1.jpg" class="flipLightBox1" > <img src="image/main page/Corona-Hoarding-1.jpg" style="height:250px;" alt="flipLightBox Image"/> <span><b></b> </span> </a> &nbsp;&nbsp; <a href="image/main page/Corona-Hoarding-2.jpg" class="flipLightBox1" > <img src="image/main page/Corona-Hoarding-2.jpg" style="height:250px;" alt="flipLightBox Image"/> <span><b></b> </span> </a> &nbsp;&nbsp; <a href="image/main page/Corona-Hoarding-3.jpg" class="flipLightBox1" > <img src="image/main page/Corona-Hoarding-3.jpg" style="height:250px;" alt="flipLightBox Image"/> <span><b></b> </span> </a> &nbsp;&nbsp; <a href="image/main page/Corona-Hoarding-4.jpg" class="flipLightBox1" > <img src="image/main page/Corona-Hoarding-4.jpg" style="height:250px;" alt="flipLightBox Image"/> <span><b></b> </span> </a> &nbsp;&nbsp; <a href="image/main page/Corona-Hoarding-5.jpg" class="flipLightBox1" > <img src="image/main page/Corona-Hoarding-5.jpg" style="height:250px;" alt="flipLightBox Image"/> <span><b></b> </span> </a> &nbsp;&nbsp;
+  </marquee>
+</div> -->
+<style>
+.col_w2201{float: left;width: 319px;font-size:12px;}.left1 h1{padding:4px 0 4px 0;/*border-radius:10px;*/text-align:left;background:#153F74;color:#FFFFFF;width:100%;height:28px;margin-bottom:03px;font-size:18px;}.left1 li{font-weight:bolder;background:#EFA76B;color:#FFFFFF;height:25px;font-size: 103%;border-left:1px dotted #EEEEEE;//*color:#EFA76B;*/margin-bottom:5px;padding-bottom:3px;border-bottom:1px dotted #EEEEEE;text-align: left;padding-left: 20px;/*background: url(../images/list1_bg.jpg) no-repeat;*/list-style-type: none;vertical-align:middle;padding-top:2px;padding-bottom:2px;}.a_link{text-align:left;height:36px;background:#E6771C;padding-left:10px;padding-top:9px;border-left:1px dotted #EEEEEE;width:100%;}.a_link a{color:#FFFFFF;font-weight:bolder;font-size:14px;line-height:10px;}
+</style>
+<style>
+	
+.rwd-table {
+  margin: auto;
+  min-width: 300px;
+  max-width: 100%;
+  border-collapse: collapse;.
+	border:1px dotted #EEEEEE;
+}
+
+.rwd-table tr:first-child {
+  border-top: none;
+  /*background: #428bca;*/
+	background: #E6771C !important; 
+  color: #fff;
+}
+
+.rwd-table tr {
+ /* border-top: 1px solid #ddd;
+  border-bottom: 1px solid #ddd;*/
+	border-top:1px dotted #EEEEEE;
+	border-bottom:1px dotted #EEEEEE;
+	
+ /* background-color: #f5f9fc;*/
+	background-color: #EFA76B;
+	color : #fff;
+}
+	
+	.rwd-table tr a{
+ 
+ 
+	background-color: #EFA76B;
+	color : forestgreen;
+}
+
+/*.rwd-table tr:nth-child(odd):not(:first-child) {
+  background-color: #EFA76B;
+}*/
+
+.rwd-table th {
+  display: none;
+}
+
+.rwd-table td {
+  display: block;
+}
+
+.rwd-table td:first-child {
+  margin-top: .5em;
+}
+
+.rwd-table td:last-child {
+  margin-bottom: .5em;
+}
+
+.rwd-table td:before {
+  content: attr(data-th) ": ";
+  font-weight: bold;
+  width: 120px;
+  display: inline-block;
+  color: #000;
+}
+
+.rwd-table th,
+.rwd-table td {
+  text-align: left;
+}
+
+.rwd-table {
+  color: #fff;
+  border-radius: .4em;
+  overflow: hidden;
+}
+
+	.rwd-table th{
+		background-color: #E6771C;
+  color: #fff;
+  
+}
+/*.rwd-table tr {
+  
+	border-bottom:1px dotted #EEEEEE;
+}
+*/
+.rwd-table th,
+.rwd-table td {
+  padding: .5em 1em;
+}
+@media screen and (max-width: 601px) {
+  .rwd-table tr:nth-child(2) {
+    border-top: none;
+  }
+}
+@media screen and (min-width: 600px) {
+  .rwd-table tr:hover:not(:first-child) {
+   /* background-color: #d8e7f3;*/
+	 /* background-color: #fae3d1;*/
+	
+  }
+  .rwd-table td:before {
+    display: none;
+  }
+  .rwd-table th,
+  .rwd-table td {
+    display: table-cell;
+    padding: .25em .5em;
+  }
+  .rwd-table th:first-child,
+  .rwd-table td:first-child {
+    padding-left: 0;
+  }
+  .rwd-table th:last-child,
+  .rwd-table td:last-child {
+    padding-right: 0;
+  }
+  .rwd-table th,
+  .rwd-table td {
+    padding: 0.5em !important;
+  }
+}
+
+
+/* THE END OF THE IMPORTANT STUFF */
+
+/* Basic Styling */
+
+
+@-webkit-keyframes leftRight {
+  0%    { -webkit-transform: translateX(0)}
+  25%   { -webkit-transform: translateX(-10px)}
+  75%   { -webkit-transform: translateX(10px)}
+  100%  { -webkit-transform: translateX(0)}
+}
+@keyframes leftRight {
+  0%    { transform: translateX(0)}
+  25%   { transform: translateX(-10px)}
+  75%   { transform: translateX(10px)}
+  100%  { transform: translateX(0)}
+}
+
+		</style>
+<div class="col_w2201" style="width: 100%">
+  <div class="left1" >
+    <h1 >UG Programmes</h1>
+  </div>
+</div>
+<table class="rwd-table">
+  <tbody>
+    <tr>
+      <th>Engineering Category</th>
+      <th>Course (4 years Degree Course)</th>
+      <th>Intake</th>
+    </tr>
+    <tr>
+      <td data-th="Engineering Category" rowspan="2"> Multidisciplinary Core Engineering </td>
+      <td data-th="Course"><a href="/deptmechanical_home.html">B.E. Mechanical Engineering</a></td>
+      <td data-th="Intake"> 60 </td>
+    </tr>
+    <tr> 
+      <!--<td data-th="UG Programme">
+          UPS3449
+        </td>-->
+      <td data-th="Course"><a href="/deptcivilengg_home.html">B.E. Civil Engineering</a></td>
+      <td data-th="Intake"> 60 </td>
+    </tr>
+    <tr>
+      <td data-th="Engineering Category" rowspan="4"> Modern Engineering </td>
+      <td data-th="Course"><a href="/deptCompEngineering_home.html">B.E. Computer Engineering</a></td>
+      <td data-th="Intake"> 180 </td>
+    </tr>
+    <tr> 
+      <!--<td data-th="UG Programme">
+          UPS3449
+        </td>-->
+      <td data-th="Course"><a href="/deptInformationTechnology_home.html">B.E. Information Technology</a></td>
+      <td data-th="Intake"> 180 </td>
+    </tr>
+    <tr> 
+      <!--<td data-th="UG Programme">
+          UPS3449
+        </td>-->
+      <td data-th="Course"><a href="/deptExTc_home.html">B.E. Electronics and Telecommunication Engineering</a></td>
+      <td data-th="Intake"> 120 </td>
+    </tr>
+    <!--<tr> 
+     
+      <td data-th="Course"><a href="/deptElectronicEngg_home.html">B.E. Electronics Engineering</a></td>
+      <td data-th="Intake"> 60 </td>
+    </tr>-->
+    
+    <tr>
+      <td data-th="Course"><a href="/deptElectronicEngg_home.html">B.E. Electronics and Computer Science* </a><font color="forestgreen"><i>(Course name changed w.e.f. A.Y. 2021-22)</i></font></td>
+      <td data-th="Intake"> 60 </td>
+    </tr>
+    <tr>
+      <td data-th="Engineering Category" rowspan="5"> Emerging Technology </td>
+      <td data-th="Course"><a href="AI&DS">B.Tech Artificial Intelligence and Data Science</a></td>
+      <td data-th="Intake"> 120 </td>
+    </tr>
+    <tr>
+      <td data-th="Course"><a href="IOT">B.Tech Internet of Things</a></td>
+      <td data-th="Intake"> 30 </td>
+    </tr>
+    <tr>
+      <td data-th="Course"><a href="AI&ML">B.Tech Artificial Intelligence and Machine Learning</a></td>
+      <td data-th="Intake"> 60 </td>
+    </tr>
+    <tr>
+      <td data-th="Course"><a href="#">B.E. Computer Science and Engineering (Cyber Security)</a></td>
+      <td data-th="Intake"> 60 </td>
+    </tr>
+    <tr>
+      <td data-th="Course"><a href="#">B.E. Mechanical and Mechatronics Engineering (Additive Manufacturing)</a></td>
+      <td data-th="Intake"> 60 </td>
+    </tr>
+    <tr>
+      <td colspan="3" style="font-size: 12px; color: #000000;"><i>*Formerly named as 'Electronics Engineering'. Name change will be applicable for students taking admission for First Year w.e.f A.Y. 2021-22.</i>
+       <!-- <hr>
+        <i>**Applied for increase in Intake (AI&DS) from 60 to 120. Approval from AICTE awaited.</i>
+        <hr>
+        <i>***Applied for increase in Intake (IT) from 120 to 180. Approval from AICTE awaited.</i></td>-->
+    </tr>
+  </tbody>
+</table>
+
+<!--<br>-->
+<table class="rwd-table">
+  <tbody>
+    <tr>
+      <th>Vocational Category</th>
+      <th>Course (3 years Degree Course)</th>
+      <th>Intake</th>
+    </tr>
+    <tr>
+      <td data-th="Vocational Category" rowspan="3" style="width: 270px;"> Vocational Course <br>
+        under NSQF </td>
+      <td data-th="Course" style="width: 627px;"><a href="B.Voc/B.Voc.pdf">B.Voc Artificial Intelligence and Data Science </a></td>
+      <td data-th="Intake"> 30 </td>
+    </tr>
+    <tr>
+      <td data-th="Course" style="width: 627px;"><a href="#">B.Voc Software Development</a></td>
+      <td data-th="Intake"> 30 </td>
+    </tr>
+    <tr>
+      <td data-th="Course" style="width: 627px;"><a href="#">B.Voc Animation & Graphic Design</a></td>
+      <td data-th="Intake"> 90 </td>
+    </tr>
+  </tbody>
+</table>
+<table class="rwd-table">
+  <tbody>
+    <tr>
+      <th>Design Category</th>
+      <th>Course (4 years Degree Course)</th>
+      <th>Intake</th>
+    </tr>
+    <tr>
+      <td data-th="Vocational Category" style="width: 270px;"> Design </td>
+      <td data-th="Course" style="width: 627px;"><a href="#">B.Design </a></td>
+      <td data-th="Intake"> 60 </td>
+    </tr>
+    <tr>
+     <!-- <td colspan="3" style="font-size: 12px; color: #000000;"><i>*Applied for New Programme w.e.f A.Y. 2022-23. Approval from AICTE awaited.</i></td>-->
+    </tr>
+  </tbody>
+</table>
+<div class="scrollable">
+  <div class="col_w2201">
+    <div class="left1" >
+      <h1>PG Programmes</h1>
+      <div class="a_link"><a href="CMPN ME.html">Computer Engineering</a></div>
+      <li> Estd.2010-11<br/>
+      </li>
+      <li>Intake:18</li>
+     <!-- <li style="font-size: 09px; color: #000000;"><i>*Formerly named as 'Computer Engineering'.</i></li>-->
+    </div>
+  </div>
+  <div class="col_w2201">
+    <div class="left1" >
+      <h1></h1>
+      <div class="a_link"><a href="IT ME.html">Information Technology</a></div>
+      <li> Estd.2010-11</li>
+      <li>Intake:18</li>
+    <!--  <li style="font-size: 09px; color: #000000;"><i>*Formerly named as 'Information Technology'.</i></li>-->
+    </div>
+  </div>
+  <div class="col_w2201">
+    <div class="left1" >
+      <h1></h1>
+      <div class="a_link" style="font-size: 14px;"><a href="EXTC ME.html">Electronics & Telecommunication</a></div>
+      <li> Estd.2009-10</li>
+      <li> Intake:18</li>
+     <!-- <li style="font-size: 09px; color: #000000;"><i>*Formerly named as 'Electronics & Telecommunication'.</i></li>-->
+    </div>
+  </div>
+</div>
+<style>
+.col_w22011{float: left;font-size:12px;}.left2 li{font-weight:bolder;background:#EFA76B;color:#FFFFFF;height:28px;font-size: 103%; //*color:#EFA76B;*/margin-bottom:5px;padding-bottom:3px;border-left:1px dotted #EEEEEE;border-bottom:1px dotted #EEEEEE;text-align: left;padding-left: 20px;/*background: url(../images/list1_bg.jpg) no-repeat;*/list-style-type: none;vertical-align:middle;padding-top:2px;padding-bottom:2px;}.left2 h1{padding:4px 0 4px 0;/*border-radius:10px;*/text-align:left;background:#153F74;color:#FFFFFF;width:100%;height:28px;margin-bottom:03px;font-size:18px;}.left2{position: relative; float: left; left: 0%; /*width:50%;*/ background-color: #e5e5e5; width:479px;}.a_link2{text-align:left;height:37px;background:#E6771C;padding-left:10px;padding-top:12px;border-bottom:1px dotted #EEEEEE;border-left:1px dotted #EEEEEE;}.a_link2 a{width:50%;color:#FFFFFF;font-weight:bolder;font-size:14px;height:37px;line-height:10px;}
+</style>
+<div class="scrollable">
+  <div class="col_w2201">
+    <div class="left1" >
+      <h1>Ph.D(Technology) Programmes</h1>
+      <div class="a_link2"><a href="phdrextc.html">Electronics and Telecommunication</a></div>
+      <li>Estd.2014-15</li>
+      <li>Intake:20</li>
+    </div>
+  </div>
+  <div class="col_w2201">
+    <div class="left1" >
+      <h1></h1>
+      <div class="a_link2" ><a href="phdrcmpn.html">Computer Engineering</a></div>
+      <li>Estd.2017-18</li>
+      <li>Intake:20</li>
+    </div>
+  </div>
+  <div class="col_w2201">
+    <div class="left1" >
+      <h1></h1>
+      <div class="a_link2" ><a href="phdrit.html">Information Technology</a></div>
+      <li>Estd.2017-18</li>
+      <li>Intake:20</li>
+    </div>
+  </div>
+</div>
+<div class="scrollable">
+  <div class="left2" >
+    <h1>Centre of Excellence</h1>
+    <!-- <li>Thakur-Accenture Innovation Center</li><li>Thakur-TATA Technologies Center of Excellence</li><li>TCET-CISCO Wireless Network Laboratory</li>-->
+    <div class="a_link2"><a href="Accenture Innovation Center.html">Thakur-Accenture Innovation Center</a></div>
+    <div class="a_link2"><a href="TATA Technologis Center of Excellence.html">Thakur-TATA Technologies Center of Excellence</a></div>
+    <div class="a_link2"><a href="CISCO COE.html">TCET-CISCO Wireless Network Laboratory</a></div>
+  </div>
+  <div class="left2" >
+    <h1></h1>
+    <!-- <li>TCET-TEXAS Instruments Laboratory</a></li><li>TCET-ARM University</a></li><li>TCET-INTEL Center of Excellence</a></li>-->
+    <div class="a_link2"><a href="Texas COE.html">TCET-TEXAS Instruments Laboratory</a></div>
+    <div class="a_link2"><a href="Embedded System Lab COE.html">TCET-Embedded System Lab</a></div>
+    <div class="a_link2"><a href="Intel COE.html">TCET-INTEL Center of Excellence</a></div>
+  </div>
+</div>
+<div class="scrollable">
+  <div class="left2" >
+    <h1>Advanced Facilities For Learning</h1>
+    <!-- <li>Thakur-Accenture Innovation Center</li><li>Thakur-TATA Technologies Center of Excellence</li><li>TCET-CISCO Wireless Network Laboratory</li>-->
+    <div class="a_link2"><a href="iit bombay.html">IIT Bombay Remote Center</a></div>
+    <div class="a_link2"><a href="TCET-AAKASH Tablet.html">TCET - AAKASH TABLET (IIT-B)</a></div>
+    <div class="a_link2"><a href="TCET-E-YANTRA.html">TCET-E-YANTRA Laboratory (IIT BOMBAY)</a></div>
+    <div class="a_link2"><a href="Cloud Computing.html" target="_blank">Virtualization & Cloud Computing Lab</a></div>
+  </div>
+  <div class="left2" >
+    <h1></h1>
+    <!-- <li>TCET-TEXAS Instruments Laboratory</a></li><li>TCET-ARM University</a></li><li>TCET-INTEL Center of Excellence</a></li>-->
+    <div class="a_link2"><a href="Free Open Source Software.html">Free Open Source Software (FOSS) IIT BOMBAY</a></div>
+    <div class="a_link2"><a href="http://www.ticamumbai.in/" target="_blank">Thakur Institute of Career Advancement (TICA)</a></div>
+    <div class="a_link2"><a href="TCET-NPTEL .html">TCET-NPTEL Local Chapter</a></div>
+    <div class="a_link2"></div>
+  </div>
+</div>
+<table width="100%" border="0" cellspacing="0" cellpadding="0" bgcolor="#C0C0C0" align="center" height="40px">
+  <tr>
+    <td width="15%" style="background-color:#C0C0C0"><font color="#004080"><strong> Visionary Quotes</strong></font></td>
+    <td width="84%" style="background-color:#C0C0C0;"><marquee onMouseOver="this.stop()" onMouseOut="this.start()" scrolldelay="0" scrollamount="4" behavior="scroll" direction="left" id="msg">
+      <font color="#993300" style="font-size:12px;">&quot;People who change after change will survive.. People who change with change will live.. People who cause the change will lead..&quot;- </font><font color="#153F74">Swami Vivekananda </font>|| <font color="#CE4300" style="font-size:12px;">&quot;The way to build a nation is to build a good citizen. Majority of the citizens should be efficient, of good character and possess a reasonably high sense of duty.&quot;- </font><font color="#153F74"> Sir M. Visvesvarayya </font>|| <font color="#CE4300" style="font-size:12px;">&quot;A person who never made a mistake never tried anything new.&quot;- </font><font color="#153F74"> Albert Einstein </font>
+      </marquee></td>
+  </tr>
+</table>
+<div class="col_w220">
+  <td width="31%" >
+  <table style="border:solid;border-color:#E6771C;border-radius: 10px;height:150px" border="0" cellspacing="0" cellpadding="2">
+    <tr >
+      <td style="background-color:#E6771C;color:#FFFFFF;text-align:center;font-size:18px;height:35px">Core Competencies</td>
+    </tr>
+    <tr style="height:100px">
+      <td align="center" style="background-color:#FFFFFF; font-size:12px;" ><div align="justify" style="line-height: 1.5em;"><strong><font color="#000000;"> <img src="image/arrows.gif"/>&nbsp;Structured & Guided Teaching Learning Methodology Maintaining Academic Rigor<br/>
+          <img src="image/arrows.gif"/>&nbsp;System-Driven-Student-Centric Services<br/>
+          <img src="image/arrows.gif"/>&nbsp;Proactive Student Professional and Personality &nbsp;&nbsp;&nbsp;&nbsp;Development Schemes<br/>
+          <img src="image/arrows.gif"/>&nbsp;State-of-the-art Infrastructure meeting &nbsp;&nbsp;&nbsp;&nbsp;International Standards</font></strong></div></td>
+    </tr>
+  </table>
+  </td>
+</div>
+<div class="col_w220">
+  <td width="38%" ><table style="border:solid;border-color:#E6771C;border-radius: 10px;;height:150px" border="0" cellspacing="0" cellpadding="2">
+      <tr>
+        <td style="background-color:#E6771C;color:#FFFFFF;text-align:center;font-size:18px;height:35px">Core Values </td>
+      </tr>
+      <tr style="height:100px">
+        <td align="center" style="background-color:#FFFFFF; font-size:12px;"><div align="justify" style="line-height: 1.5em;"><strong><font color="#000000;"> <img src="image/arrows.gif"/>&nbsp; Integrity & Accountability<br/>
+            <span style="text-align:left"><img src="image/arrows.gif"/></span> Respect for each Individual<br/>
+            <img src="image/arrows.gif"/>Sensitivity towards Social Responsibilities<br/>
+            <img src="image/arrows.gif"/>&nbsp;Unfettered Spirit of Learning, Exploration, &nbsp;&nbsp;&nbsp;&nbsp;Rationality & Enterprise<br/>
+            <img src="image/arrows.gif"/>&nbsp;Exploration & Enterprise for both Faculty and &nbsp;&nbsp;&nbsp;&nbsp;Students</font></strong></div></td>
+      </tr>
+    </table></td>
+</div>
+<div class="col_w220 last_col">
+  <td width="31%" ><table style="border:solid;border-color:#E6771C;border-radius: 10px;;height:150px" border="0" cellspacing="0" cellpadding="2">
+      <tr >
+        <td style="background-color:#E6771C;color:#FFFFFF;text-align:center;font-size:18px;height:35px">Strategic Objectives</td>
+      </tr>
+      <tr style="height:100px;">
+        <td align="center" style="background-color:#FFFFFF; font-size:12px;"><div style="text-align:left; line-height: 1.5em;"><strong> <font color="#000000;"> <img src="image/arrows.gif"/>To become an Institute of Repute<br/>
+            <img src="image/arrows.gif"/>To become the Preferred Recruitment &nbsp;&nbsp;&nbsp;&nbsp;Destination by the Industry<br/>
+            <img src="image/arrows.gif"/>&nbsp;To become an Institute Fostering Active &nbsp;&nbsp;&nbsp;&nbsp;R & D &nbsp;&nbsp;&nbsp;&nbsp;Culture at Undergraduate level<br/>
+            <img src="image/arrows.gif"/>&nbsp;To become an Institute Nurturing & Budding Engineers to become Entrepreneurs</font></cite></div>
+      </tr>
+    </table></td>
+</div>
+<style>
+.col_w22012{float: left;width: 307px;margin-right: 02px;margin-left: 02px;font-size:12px;line-height:1.5em;}
+</style>
+<div id="middle_head_bar"> </div>
+<div class="content_box">
+  <div class="col_w22012">
+    <h3 style="font-size:14px; background-color:#E5E5E5; text-align:center; height:35px; line-height:20px; margin-top:0px;">Academic Developement</h3>
+    <ul class="tmo_list">
+      <!-- <li><a href="Notice/FE_Academic_Calendar.pdf"><font color="#336600" >Academic Calendar-F.E.</font></a></li>-->
+      <li><a href="Notice/Academic_Calender.pdf"><font color="#336600" >Academic Calendar-UG</font></a></li>
+      <!--    <li><a href="Notice/Academic Calender ME(Oddsem).pdf"><font color="#336600" >Academic Calendar-PG</font></a></li>--> 
+      <!--<li><a href="image/slides/Slide3.jpg" class="flipLightBox"><span><b></b> </span><font color="#336600" >Institute Result</font></a></li>-->
+      <li><a href="instituteresult.html"><font color="#336600" >Institute Result</font></a></li>
+      <li><a href="institutetoppers.html"><font color="#336600" >Toppers</font></a></li>
+      <!--<li><a href="image/slides/Slide8.jpg" class="flipLightBox"><span><b></b> </span><font color="#336600" >Toppers</font></a></li>-->
+    </ul>
+    <div class="cleaner"></div>
+    <div class="cleaner h20"></div>
+  </div>
+  <div class="col_w22012">
+    <h3 style="font-size:14px; background-color:#E5E5E5; text-align:center; height:35px; line-height:20px; margin-top:0px;">Research & Developement</h3>
+    <ul class="tmo_list">
+      <li><a href="https://multiconw.co.in/" target="_blank"><font color="#336600" >Multicon-W 2022(Annual Conference and Workshop) </font></a></li>
+      <li><a href="https://www.tcetmumbai.in/rnd_sih_2020.html"><font color="#336600" >Smart India Hackathon 2020 </font></a></li>
+      <li><a href="R&D meet 2018.html"><font color="#336600" >Research Meet 2018 </font></a></li>
+    </ul>
+    <div class="cleaner h20"></div>
+    <a href="#" class="more"></a> </div>
+  <div class="col_w22012">
+    <h3 style="font-size:14px; background-color:#E5E5E5; text-align:center; height:35px; line-height:20px; margin-top:0px;"> Co-curricular & Extra-curricular</h3>
+    <ul class="tmo_list">
+      <li><a href="/Notice/international_yoga_day_2021.pdf" target="_blank"><font color="#336600" > International Yoga Day (21<sup>st</sup> June 2021) </font></a></li>
+      <!--<li><a href="International Yoga Day_2019.html"><font color="#336600" > International Yoga Day (21<sup>st</sup> June 2019) </font></a></li>-->
+      <li><a href="zypher20.html"><font color="#336600" >Zephyr (Annual Tech. Fest.) September-Every Year </font></a></li>
+      <li><a href="#"><font color="#336600" >Alumni Meet</font></a></li>
+      <li><a href="https://thakureducation-my.sharepoint.com/:f:/g/personal/it_thakureducation_org/EuYBh-Xu35dKjqMGM1Iux7ABwbKF1JsgFw-aBSTEyVUbVw?e=bg7qoT" target="_blank"><font color="#336600" >T-Spark (Annual Intra sport Tournament)</font></a> </li>
+      <li><a href="#"><font color="#336600" >Enertia (Inter College Sports Tournament)</font></a></li>
+      <li><a href="#"><font color="#336600" >Sojourn (Annual Cultural Fest.)</font></a></li>
+      <!-- <li><a href="https://photos.app.goo.gl/puiAYHYcKDGRvrgE7" target="_blank"><font color="#336600" >DCDC 2018</font></a></li>-->
+      <li><a href="DCDC-2020.html" target="_blank"><font color="#336600" >DCDC 2020</font></a></li>
+    </ul>
+    <div class="cleaner h20"></div>
+  </div>
+  <div class="group btmspace-10">
+    <div class="one_third first">
+      <div class="box1">
+        <td align="center"><a href="mandatorydis.pdf" style="color:#FFFFFF; font-size:15px"><strong>Mandatory Disclosure 2021-22 </strong></a></td>
+      </div>
+    </div>
+    <div class="one_third">
+      <div class="box1"> 
+        <!--<td align="center" bgcolor="#FFCC00" style="border-radius:10px"><a href="E-Magazines/Quasar_2017.pdf" style="color:#FFFFFF; font-size:15px"><strong>College Magazine 2017-18</strong></a></td>-->
+        <td align="center" bgcolor="#FFCC00" style="border-radius:10px"><a href="https://drive.google.com/file/d/15UEYB7fFodie3FrCnIK6a2eDyHqlI2tC/view?usp=sharing" target="_blank" style="color:#FFFFFF; font-size:15px"><strong>College Magazine 2022</strong></a></td>
+      </div>
+      <br/>
+    </div>
+    <div class="one_third">
+      <div class="box1">
+        <td align="center" bgcolor="#FFCC00" style="border-radius:10px"><a href="ADVERTISEMNT.pdf" target="_blank" style="color:#FFFFFF; font-size:15px"><strong>Admission  2022-23</strong></a></td>
+      </div>
+    </div>
+    <div class="one_third first">
+      <div class="box1"> 
+        
+        <td align="center" bgcolor="#FFCC00" style="border-radius:10px"><a href="https://drive.google.com/file/d/1MDTaiuwHA8miu0tOoi9RIz2iMtq-hhCr/preview" target="_blank" style="color:#FFFFFF; font-size:15px"><strong>Degree Certificate Distribution - 2022 </strong></a></td>
+      </div>
+    </div>
+    <div class="one_third">
+      <div class="box1">         
+        <td align="center" bgcolor="#FFCC00" style="border-radius:10px"><a href="/Multicon/souvenir2022.pdf" target="_blank" style="color:#FFFFFF; font-size:15px"><strong>Multicon-W-2022 Souvenir</strong></a></td>
+      </div>
+    </div>
+    <style>
+.dropbtn{transition-property: background, border-radius;transition-duration: 0.6s;transition-timing-function: linear;height:40px; text-align: center;width:150%; background-color:#004080; color: #FFFFFF;/*padding: 15px 32px; padding-top:5px; padding-bottom:15px; */ font-size: 13px; cursor: pointer;border-radius: 06px;text-align:center;}.dropdown{transition: height 2s ease; position: relative; display: inline-block;}.dropdown-content{width:100%; display: none; position: absolute; background-color: #f9f9f9; z-index: 9999; box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);}.dropdown-content a{color: black; padding: 12px 0 0 5px ;font-weight:bold; text-decoration: none; display: block;border-left:1px dotted #EEEEEE;border-bottom:1px dotted #EEEEEE;}.dropdown-content a:hover{background-color: #70B7FF}.dropdown:hover .dropdown-content{display: block;}.dropdown:hover .dropbtn{background-color: #E6771C;}
+</style>
+    <div class="one_third">
+      <div class="dropdown">
+        <button class="dropbtn" style="width: 300px;"><strong>Multicon-W Proceedings</strong></button>
+        <!-- <div class="dropdown-content">
+          <div style="text-align:left;">
+            <div style="float:left"> <a href="multicon/2018/CETE 2018.pdf">CETE-2018</a> <a href="multicon/2018/IC-ACE 2018.pdf">IC-ACE-2018</a> <a href="multicon/2018/IC-CSOD 2018.pdf">IC-CSOD-2018</a> <a href="multicon/2018/Final crtce(CMPN).pdf">CRTCE-2018</a> </div>
+            <div style="float:right"> <a href="multicon/2018/ICDMT 2018.pdf">ICDMT-2018</a> <a href="multicon/2018/NCASH 2018.pdf">NCASH-2018</a> <a href="multicon/2018/NCEAR 2018.pdf">NCEAR-2018</a> </div>
+          </div>
+        </div>-->
+        
+        <div class="dropdown-content">
+          <div style="text-align:left;">
+            <div style="float:left"> <a href="multicon/2021/IC-HSTE 2021.pdf" target="_blank">IC-HSTE 2021</a> <a href="multicon/2021/IC-ICN 2021.pdf" target="_blank">IC-ICN 2021</a> 
+              <!--<a href="multicon/2020/ECDSIC 2020-PROCEEDING with ISBN.pdf" target="_blank">eC-DSIC-2020</a>--> 
+				 <a href="multicon/2022/Multicon-W 2022 Procedding.pdf" target="_blank">Multicon-W 2022</a> </div>
+              <a href="multicon/2021/Multicon-W 2021 Procedding.pdf" target="_blank">Multicon-W 2021</a> </div>
+            <div style="float:right"> <a href="multicon/2021/IC-TELCON 2021.pdf" target="_blank">IC-TELCON 2021</a> <a href="multicon/2021/IC-AMCE 2021.pdf" target="_blank">IC-AMCE-2021</a> </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <h1 style="background-color:#004080; color:#FFFFFF; text-align:center;">TCET Publications</h1>
+  <style>
+.image{}.image{border-width: 06px; border-color: #67CACF; border-style: ridge;}
+</style>
+  <marquee behavior="scroll" direction="left" scrollamount="10" scrolldelay="7" onmouseover="this.stop()" onmouseout="this.start()">
+  <table border="0" cellspacing="0" >
+    <tbody>
+      <tr>
+        <th scope="row" style="background-color:#fff;"> <table style="width:197px; height:278px;">
+            <tbody>
+              <tr>
+                <td style="background-color:#4C7282; text-align:center; color:#ffffff;">College Magazine</td>
+              </tr>
+              <tr>
+                <td style="background-color:#fff;"><a href="E-Magazines/Quasar-2020.pdf" target="_blank" style="color:#FFFFFF"><img src="E-Magazines/thumb/Quasar-2020.jpg" class="image"/></a></td>
+              </tr>
+            </tbody>
+          </table></th>
+        <th scope="row" style="background-color:#fff;"> <table style="width:197px; height:278px;">
+            <tbody>
+              <tr>
+                <td style="background-color:#4C7282; text-align:center; color:#ffffff;">IT-Ezine</td>
+              </tr>
+              <tr>
+                <td style="background-color:#fff;"><a href="E-Magazines/Ezine-IT..pdf" target="_blank"><img src="E-Magazines/thumb/IT_EZINE.jpg" class="image"/></a></td>
+              </tr>
+            </tbody>
+          </table></th>
+        <td style="background-color:#fff;"><table style="width:197px; height:278px;">
+            <tbody>
+              <tr>
+                <td style="background-color:#4C7282; text-align:center; color:#ffffff;">COMP-Nimbus</td>
+              </tr>
+              <tr>
+                <td style="background-color:#fff;"><a href="E-Magazines/Nimbus.pdf" target="_blank" style="color:#FFFFFF"><img src="E-magazine/thumb/COMP_NIMBUS.jpg" class="image"/></a></td>
+              </tr>
+            </tbody>
+          </table></td>
+        <td style="background-color:#fff;"><table style="width:197px; height:278px;">
+            <tbody>
+              <tr>
+                <td style="background-color:#4C7282; text-align:center; color:#ffffff;">E&TC-Abhivarg</td>
+              </tr>
+              <tr>
+                <td style="background-color:#fff;"><a href="E-Magazines/Abhivarg_2022.pdf" target="_blank" style="color:#FFFFFF"><img src="E-Magazines/thumb/ABHIVARG.jpg" style="height: 244px;"class="image"/></a></td>
+              </tr>
+            </tbody>
+          </table></td>
+        <td style="background-color:#fff;"><table style="width:197px; height:278px;">
+            <tbody>
+              <tr> 
+                <!--<td style="background-color:#4C7282; text-align:center; color:#ffffff;">ELEX-Techtronics</td>-->
+                <td style="background-color:#4C7282; text-align:center; color:#ffffff;">ELEX-ADHYAY</td>
+              </tr>
+              <tr>
+                <td style="background-color:#fff;"><a href="E-Magazines/Adhyay.pdf" target="_blank" style="color:#FFFFFF"><img src="E-Magazines/thumb/ELEX_ADHYAY.jpg" style="height: 244px;" class="image"/></a></td>
+              </tr>
+            </tbody>
+          </table></td>
+        <td style="background-color:#fff;"><table style="width:197px; height:278px;">
+            <tbody>
+              <tr>
+                <td style="background-color:#4C7282; text-align:center; color:#ffffff;">Mechanical-Mechon</td>
+              </tr>
+              <tr>
+                <td style="background-color:#fff;"><a href="E-Magazines/Final Mechon AY-2022-23.pdf" target="_blank" style="color:#FFFFFF"><img src="E-Magazines/thumb/MECHON.jpg"  style="width:100%; height:246px;" class="image"/></a></td>
+              </tr>
+            </tbody>
+          </table></td>
+        <td style="background-color:#fff;"><table style="width:197px; height:278px;">
+            <tbody>
+              <tr>
+                <td style="background-color:#4C7282; text-align:center; color:#ffffff;">Civil-E-Maarat</td>
+              </tr>
+              <tr>
+                <td style="background-color:#fff;"><a href="E-Magazines/EMARAAT.pdf" target="_blank" style="color:#FFFFFF"><img src="E-Magazines/thumb/CIVIL_EMAARAT.jpg" style="width:100%; height:246px;" class="image"/></a></td>
+                
+                <!-- <td style="background-color:#fff;"><a href="E-Magazines/E-MAARAT.pdf" style="color:#FFFFFF"><img src="image/MAGAZINE_FRONT/civil1.jpg" class="image"/></a></td>--> 
+              </tr>
+            </tbody>
+          </table></td>
+        <td style="background-color:#fff;"><table style="width:197px; height:278px;">
+            <tbody>
+              <tr>
+                <td style="background-color:#4C7282; text-align:center; color:#ffffff;">ES&H-The Byte</td>
+              </tr>
+              <tr><!--E-Magazines/THE BYTE 2018.pdf-->
+                <td style="background-color:#fff;"><a href="E-Magazines/The Byte.pdf" target="_blank" style="color:#FFFFFF"><img src="E-Magazines/thumb/THE BYTE.png" style="width:100%; height:246px;"  class="image"/></a></td>
+              </tr>
+            </tbody>
+          </table></td>
+        <td style="background-color:#fff;"><table style="width:197px; height:278px;">
+            <tbody>
+              <tr>
+                <td style="background-color:#4C7282; text-align:center; color:#ffffff;">AIML-TEJAS</td>
+              </tr>
+				
+				<tr><!--E-Magazines/THE BYTE 2018.pdf-->
+                <td style="background-color:#fff;"><a href="E-Magazines/TEJAS.pdf" target="_blank" style="color:#FFFFFF"><img src="E-Magazines/thumb/TEJAS.JPG" style="width:100%; height:246px;"  class="image"/></a></td>
+              </tr>
+            </tbody>
+          </table></td>
+        <td style="background-color:#fff;"><table style="width:197px; height:278px;">
+            <tbody>
+              <tr>
+                <td style="background-color:#4C7282; text-align:center; color:#ffffff;">C&CS-DECYPHER</td>
+              </tr>
+				
+				
+				
+				<tr><!--E-Magazines/THE BYTE 2018.pdf-->
+                <td style="background-color:#fff;"><a href="E-Magazines/DeCypher.pdf" target="_blank" style="color:#FFFFFF"><img src="E-Magazines/thumb/DeCypher.JPG" style="width:100%; height:246px;"  class="image"/></a></td>
+              </tr>
+            </tbody>
+          </table></td>
+        <td style="background-color:#fff;"><table style="width:197px; height:278px;">
+            <tbody>
+              <tr>
+                <td style="background-color:#4C7282; text-align:center; color:#ffffff;">EWT EPIPHANY</td>
+              </tr>
+				
+				
+              <tr>
+                <td style="background-color:#fff;"><a href="E-Magazines/2021/magazine/Epiphany 2022.pdf" target="_blank" style="color:#FFFFFF"><img src="/E-Magazines/thumb/EPIPHANY.jpg" style="width:100%; height:246px;"  class="image"/></a></td>
+              </tr>
+            </tbody>
+          </table></td>
+        <td style="background-color:#fff;"><table style="width:197px; height:278px;">
+            <tbody>
+              <tr>
+                <td style="background-color:#4C7282; text-align:center; color:#ffffff;">Rotarect Club Valerie</td>
+              </tr>
+              <tr>
+                <td style="background-color:#fff;"><a href="E-Magazines/2021/magazine/VALERIE.pdf" target="_blank" style="color:#FFFFFF"><img src="/E-Magazines/thumb/VALERIE.jpg" style="width:100%; height:246px;"  class="image"/></a></td>
+              </tr>
+            </tbody>
+          </table></td>
+        <td style="background-color:#fff;"><table style="width:197px; height:278px;">
+            <tbody>
+              <tr>
+                <td style="background-color:#4C7282; text-align:center; color:#ffffff;">SORT Club Crescendo</td>
+              </tr>
+              <tr>
+                <td style="background-color:#fff;"><a href="E-Magazines/Dunes In Time - Edition 1.2.pdf" target="_blank" style="color:#FFFFFF"><img src="/E-Magazines/thumb/SORT.jpg" style="width:100%; height:246px;"  class="image"/></a></td>
+              </tr>
+            </tbody>
+          </table></td>
+        <td style="background-color:#fff;"><table style="width:197px; height:278px;">
+            <tbody>
+              <tr>
+                <td style="background-color:#4C7282; text-align:center; color:#ffffff;">NSS - परिवर्तन</td>
+              </tr>
+              <tr>
+                <td style="background-color:#fff;"><a href="E-Magazines/2021/magazine/परिवर्तन_TCET NSS.pdf" target="_blank" style="color:#FFFFFF"><img src="/E-Magazines/thumb/NSS.jpg" style="width:100%; height:246px;"  class="image"/></a></td>
+              </tr>
+            </tbody>
+          </table></td>
+        <td style="background-color:#fff;"><table style="width:197px; height:278px;">
+            <tbody>
+              <tr>
+                <td style="background-color:#4C7282; text-align:center; color:#ffffff;">NCC - Warriors</td>
+              </tr>
+              <tr>
+                <td style="background-color:#fff;"><a href="E-Magazines/Wairrors NCC Magazine Vol_2-compressed.pdf" target="_blank" style="color:#FFFFFF"><img src="/E-Magazines/thumb/NCC.jpg" style="width:100%; height:246px;"  class="image"/></a></td>
+              </tr>
+            </tbody>
+          </table></td>
+      </tr>
+    </tbody>
+  </table>
+  </marquee>
+  <div class="group btmspace-10" style="margin-top:01px;">
+    <div class="one_quarter first"> <a href="https://multiconw.co.in/" target="_blank"><img src="image/Multicon%202014_new123.jpg" alt="TCET" style="width:100%;height:200px;"/></a></div>
+    <div class="one_quarter"> <img src="image/tech_fest.jpg" alt="TCET" style="width:100%;height:200px;"/></div>
+    <div class="one_quarter"> <a href="institutional Growth.html"> <img src="image/performance.jpg" alt="TCET" style="width:100%;height:200px;"/></a></div>
+    <div class="one_quarter"><a href="nssTCET.html"> <img src="image/nsssociety.jpg" alt="TCET" style="width:100%;height:200px;"/></a></div>
+  </div>
+  <div align="right"> 
+    <SCRIPT LANGUAGE="JavaScript">
+update = new Date(document.lastModified)
+theMonth = update.getMonth() + 1
+theDate = update.getDate()
+theYear = update.getFullYear()
+document.writeln("<I>Last Updated On:" + theDate + "/" + theMonth + "/" + theYear + "</I>")
+</SCRIPT> </div>
+</div>
+</div>
+</div>
+<br/>
+<div class="group">
+<div class="wrapper row4">
+<div class=rounded>
+<footer class=clear id=footer>
+<div class="one_half first">
+  <figure class=center>
+    <iframe width="100%" height="250" frameborder="0" scrolling="no" marginheight="0" marginwidth="0" src="https://maps.google.com/maps?hl=en&q=A-Block, Thakur Educational Campus, Shyamnarayan Thakur Marg, Thakur Village, Kandivali(E). Mumbai - 400101, India&ie=UTF8&t=hybrid&z=15&iwloc=B&output=embed"></iframe>
+  </figure>
+</div>
+<div class="one_half">
+  <address>
+  <strong><font color="#996600"> Thakur College Of Engineering And Technology.<br>
+  A-Block, Thakur Educational Campus, Shyamnarayan Thakur Marg, Thakur Village, Kandivali(E). Mumbai - 400101.</strong> <br/>
+  <i class="fa pright-10 fa-phone"></i> <strong> Tel:</strong><a href="tel:022 - 28461891"> 022 - 28461891 </a>/ <a href="tel:9267308000">022 - 67308000</a>, <a href="tel:02267308106">67308106</a> /<a href="tel:02267308107"> 07</a><br/>
+  <i class="fa pright-10 fa-phone"></i><strong>Fax:</strong><a href="tel:022 - 28461890"> 022 - 28461890</a><br/>
+  <i class="fa pright-10 fa-envelope-o"></i> <font color="#996600"><strong>E-Mail:</strong></font><font color="#0033FF"><a href="mailto:tcet@thakureducation.org">&nbsp; tcet@thakureducation.org</a></font>
+  </address>
+  <p><strong>Websites:</strong> <a href="https://www.tcetmumbai.in" target="_blank"><font color="#0033FF">www.tcetmumbai.in</font></a>, <a href="https://www.thakureducation.org" target="_blank"><font color="#0033FF"> www.thakureducation.org</font></a> </p>
+</div>
+</div>
+</div>
+</div>
+</div>
+<table width="100" border="0">
+  <tbody>
+    <tr>
+      <th scope="row" style="background-color:#D4890E;"> <a href="downloads.html"><font color="#FFFFFF">Downloads</font></a>&nbsp;&nbsp;&nbsp; <a href="mediaNews.html"><font color="#FFFFFF">Media &amp; News</font> </a>&nbsp;&nbsp;&nbsp; <a href="mandatorydis.pdf"><font color="#FFFFFF">Mandatory Disclosure</font></a>&nbsp;&nbsp;&nbsp; <a href="disclaimer.html"><font color="#FFFFFF">Disclaimer</font></a>&nbsp;&nbsp;&nbsp; <a href="contentPolicy.html"><font color="#FFFFFF">Content Policy</font></a>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <font color="#FFFFFF">Copyright © TCET</font>
+        </ul>
+      </th>
+    </tr>
+  </tbody>
+</table>
+<script src="https://code.jquery.com/jquery-2.1.3.min.js"></script> 
+<script>$(document).ready(function(){var touch=$('#resp-menu');var menu=$('.menu'); $(touch).on('click', function(e){e.preventDefault();menu.slideToggle();});$(window).resize(function(){var w=$(window).width();if(w > 767 && menu.is(':hidden')){menu.removeAttr('style');}});});</script> 
+<script src=layout/scripts/jquery.min.js></script> 
+<script src=layout/scripts/jquery.fitvids.min.js></script> 
+<script src=layout/scripts/jquery.mobilemenu.js></script> 
+<script src=layout/scripts/tabslet/jquery.tabslet.min.js></script> 
+<script type="text/javascript" src="layout/scripts/fliplightbox.min.js"></script> 
+<script type="text/javascript">$('body').flipLightBox()</script> 
+<script type="text/javascript" src="layout/scripts/fliplightbox.min.js"></script> 
+<script type="text/javascript">$('body').flipLightBox()</script> 
+<script type="text/javascript" src="layout/scripts/fliplightbox1.min.js"></script> 
+<script type="text/javascript">$('body').flipLightBox1()</script> 
+<script type="text/javascript">jssor_1_slider_init();</script> 
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script> 
+<script type="text/javascript" src="layout/nivo-slider/jquery.nivo.slider.js"></script> 
+<script type="text/javascript">$(window).load(function(){$('#slider').nivoSlider();}); </script> 
+<script type="text/javascript">
+	$(document).ready(function(){
+  
+  $("#thover").click(function(){
+		$(this).fadeOut();
+    $("#tpopup").fadeOut();
+	});
+  
+  
+  $("#tclose").click(function(){
+		$("#thover").fadeOut();
+    $("#tpopup").fadeOut();
+	});
+  
+});
+	</script>
+</body>
+</html>

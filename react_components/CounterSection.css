@@ -1,0 +1,74 @@
+.counter-container {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 150px;
+  padding: 30px 15px;
+  background-color: #f8f9fa;
+}
+
+.counter-box {
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  padding: 25px 20px;
+  width: 220px;
+  text-align: center;
+  transition: transform 0.3s ease;
+}
+
+.counter-box:hover {
+  transform: translateY(-5px);
+}
+
+.counter-icon {
+  width: 50px;
+  height: 50px;
+  margin-bottom: 15px;
+  animation: fadeBlink 2s ease-in-out infinite;
+}
+
+.counter-value {
+  font-size: 22px;
+  font-weight: bold;
+  color: #004080;
+  margin-bottom: 10px;
+}
+
+.counter-label {
+  font-size: 16px;
+  font-weight: 500;
+  color: #333;
+}
+
+@keyframes fadeBlink {
+  0%, 100% {
+    opacity: 1;
+    transform: scale(1);
+  }
+  50% {
+    opacity: 0.4;
+    transform: scale(1.05);
+  }
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .counter-container {
+    gap: 20px;
+    padding: 20px 10px;
+  }
+
+  .counter-box {
+    width: 100%;
+    max-width: 300px;
+  }
+
+  .counter-value {
+    font-size: 24px;
+  }
+
+  .counter-label {
+    font-size: 15px;
+  }
+}

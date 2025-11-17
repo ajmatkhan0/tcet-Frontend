@@ -1,0 +1,86 @@
+
+/*##########################################################################################################
+
+Below is the core QuickMenu CSS responsible for menu functionality and operations.  You do not need
+to modify any of the settings below, however if you want to mess around feel free :)  
+
+To customize the menu styles see qm_customize.css
+
+############################################################################################################ */
+
+
+/* ######## Core CSS [Modify at your own risk!] ######## */
+
+	/* Default Styles, Layout, and Behavior */
+	.qm {position:relative;z-index:1;font-size:14px;font-family:Arial, Helvetica, sans-serif;line-height:normal;}
+	.qm_window, .qm_chrome, .qm_topbar, .qm_main, .qm_main>li, .qm_main>li>*:first-child, .qm_sub, .qm_sub>li, .qm_sub>li>*:first-child {-moz-box-sizing:border-box;-webkit-box-sizing:border-box;-ms-box-sizing:border-box;-o-box-sizing:border-box;box-sizing:border-box;}
+	.qm_main, .qm_sub {list-style:none;padding:0px;margin:0px;}
+	.qm_main {position:relative;z-index:1;}
+	.qm_sub {visibility:hidden;position:absolute;z-index:1;left:100%;top:0px;}
+	.qm_main>li, .qm_sub>li {display:block;position:relative;white-space:nowrap;}
+	.qm_main>li>*:first-child, .qm_sub>li>*:first-child {display:block;position:relative;cursor:default;width:100%;height:100%;text-decoration:none;}
+	.qm_main>li>a:first-child, .qm_sub>li>a:first-child {cursor:pointer;}
+	.qm_hidden {display:none;}
+	.qm_disable_behavior {-webkit-touch-callout:none;-webkit-user-select:none;-khtml-user-select:none;-moz-user-select:none;-ms-user-select:none;user-select:none;-webkit-user-drag:none;user-drag:none;}
+	.qm_DST .qm_sub {-moz-transition:none !important;-webkit-transition:none !important;-o-transition:all 0 ease-in !important;transition:none !important;} /* DST = Disable Sub Transitions */
+	
+	/* Pure CSS Hover (.5s default mouse over and out delay) */
+	.qm:hover, .qm_main:hover {z-index:999999;}
+	.qm_pure .qm_sub {transition-delay:.5s;}
+	.qm_pure li:hover>.qm_sub {visibility:inherit;transition-delay:.5s;}
+			
+	/* Scripted Hover and Active States */
+	.qm.qm_active, .qm_main.qm_active {z-index:999999;}
+	.qm_script .qm_item.qm_active>.qm_sub {visibility:inherit;}
+
+	/* Default Horizontal Menu Layout */
+	.qm_main>li {float:left;}
+	.qm_main:after {content:"";display:block;clear:both;}
+	.qm_main>li>.qm_sub {left:0px;top:100%;}
+		
+	/* Hide Fill Style Menu Elements By Default */
+	.qm .qm_topbar, .qm .qm_button_open  {display:none}
+
+	/* Fill Window Menu Styles */
+	.qm_fill {-webkit-text-size-adjust:100%;-moz-text-size-adjust:100%;-ms-text-size-adjust:100%;text-size-adjust:100%;}
+	.qm_fill.qm {z-index:999999;-webkit-tap-highlight-color:rgba(0,0,0,0);-webkit-tap-highlight-color:transparent;}
+	.qm_fill.qm .qm_sub {width:100%;top:0px;left:100%;}
+	.qm_fill .qm_item {position:static;white-space:normal;}
+	.qm_fill .qm_blockout {display:block;position:fixed;z-index:1;width:100%;height:100%;top:0px;left:0px;}
+	.qm_fill .qm_window {position:fixed;z-index:2;}
+	.qm_fill .qm_chrome {position:relative;width:100%;height:100%;border:solid 0px transparent;}
+	.qm_fill .qm_viewport {position:relative;width:100%;height:100%;overflow:hidden;}
+	.qm_fill .qm_doc {position:relative;width:100%;height:100%;left:0%;top:0px;}
+	.qm_fill .qm_topbar {display:block;position:absolute;width:100%;}
+	.qm_fill .qm_button_back, .qm_fill .qm_icon {visibility:hidden;opacity:0;}
+	.qm_fill .qm_title, .qm_fill .qm_button_back, .qm_fill .qm_button_close, .qm_fill .qm_icon {position:absolute;margin:auto;top:0px;bottom:0px;height:60%}
+	.qm_fill .qm_icon>div, .qm_fill .qm_button_close>div, .qm_fill .qm_button_back>div {position:absolute;margin:auto;top:0px;bottom:0px;left:0px;right:0px;height:50%;width:50%;background-size:contain;background-repeat:no-repeat;background-position:center center;}
+	.qm_fill .qm_title {left:0px;right:0px;width:80%;}
+	.qm_fill .qm_button_back, .qm_fill .qm_icon {left:0px;width:10%;}
+	.qm_fill .qm_button_close {right:0px;width:10%;}
+	.qm_fill .qm_main {position:relative;width:100%;}
+	.qm_fill .qm_main>li {float:none;}
+	.qm_fill.qm_closed .qm_button_open {display:block;}
+	.qm_fill.qm_closed .qm_window, .qm_fill.qm_closed .qm_blockout  {display:none;}
+	.qm_fill.qm_closed {z-index:1;}
+	.qm_fill .qm_on {visibility:inherit;opacity:1;}
+		
+	/* Fill to Parent Container vs. Window (to enable: add qmFillParent class name to NAV tag) */
+	.qmFillParent.qm_fill {position:static;}
+	.qmFillParent.qm_fill .qm_blockout, .qmFillParent.qm_fill .qm_window  {position:absolute;}
+	
+	/* Disable safe z-index for fill menu (to disable: add qmFillDisableSafeZIndex class name to NAV tag) */
+	.qm_fill.qmFillDisableSafeZIndex .qm_button_open {display:block;}
+	
+	/* Default Fill Menu Styles */
+	.qm_fill .qm_menu, .qm_fill .qm_item>*:first-child {border-style:none;margin:0px;}
+	.qm_fill .qm_menu {padding:0px;}
+	
+	/* Disable and Enable Menus and Items Targeted to a Specific Menu Style ('drop', or 'fill') */
+	.qm .qm_fill_only,  .qm .qm_drop_only {display:none;}
+	.qm_fill .qm_fill_only, .qm_drop .qm_drop_only{display:block;}
+	
+
+	
+	
+	
