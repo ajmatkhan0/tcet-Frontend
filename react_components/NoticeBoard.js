@@ -8,7 +8,8 @@ function NoticeBoard() {
   const [showArchive, setShowArchive] = useState(false);
 
   useEffect(() => {
-    fetch("http://localhost:5000/notices")
+    fetch("https://wholesome-upliftment-production.up.railway.app/notices")
+
       .then((res) => res.json())
       .then((data) => {
         setNotices(data);
@@ -18,7 +19,7 @@ function NoticeBoard() {
   }, []);
 
   function fetchArchived() {
-    fetch("http://localhost:5000/notices/archived")
+    fetch("https://wholesome-upliftment-production.up.railway.app/notices/archived")
       .then((res) => res.json())
       .then((data) => {
         setArchivedNotices(data);
